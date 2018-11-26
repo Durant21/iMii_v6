@@ -7,5 +7,6 @@ def main(global_config, **settings):
     with Configurator(settings=settings) as config:
         config.include('pyramid_chameleon')
         config.include('.routes')
+        config.add_route('splash', '/splash')
         config.scan()
     return config.make_wsgi_app()
