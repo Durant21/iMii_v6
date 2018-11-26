@@ -2,7 +2,8 @@
 
 function getUrlBase() {
     //return 'http://localhost:6543/';
-    return 'http://www.girlsintheclassroom.com/';
+    //return 'http://www.girlsintheclassroom.com/';
+    return '172.97.101.66/';
 }
 
 function verifyUser() {
