@@ -4,19 +4,25 @@ from pyramid.events import NewRequest
 from pyramid.renderers import JSON
 
 # Following references needed for Sqlite creation
-# from iMii_v6.data.Car import Car
-# from iMii_v6.data.People import Person
-# from iMii_v6.data.Event import Event
-# from iMii_v6.data.User import User
-# from iMii_v6.data.db_factory import DbSessionFactory
-# from iMii_v6.renderers.csv_renderer import CSVRendererFactory
-# from iMii_v6.data.repository import Repository
+from iMii_v6.data.Car import Car
+from iMii_v6.data.People import Person
+from iMii_v6.data.Event import Event
+from iMii_v6.data.User import User
+from iMii_v6.data.db_factory import DbSessionFactory
+from iMii_v6.renderers.csv_renderer import CSVRendererFactory
+from iMii_v6.data.repository import Repository
 
 def main(global_config, **settings):
     """ This function returns a Pyramid WSGI application.
     """
     with Configurator(settings=settings) as config:
         config.include('pyramid_chameleon')
+
+        allow_cors( config )
+        init_db( config )
+        configure_renderers( config )
+
+
         config.include('.routes')
 
         config.add_static_view( 'static', 'static', cache_max_age=3600 )

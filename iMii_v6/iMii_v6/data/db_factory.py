@@ -11,7 +11,7 @@ class DbSessionFactory:
 
     @classmethod
     def global_init(cls, db_filename):
-        working_folder = os.path.dirname(iMii_v4.__file__)
+        working_folder = os.path.dirname(iMii_v6.__file__)
         file = os.path.join(working_folder, 'db', db_filename)
         conn_string = 'sqlite:///' + file
 
