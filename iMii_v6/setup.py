@@ -16,6 +16,7 @@ requires = [
     'pyramid_debugtoolbar',
     'waitress',
     'requests',
+    'python-dateutil',
 ]
 
 tests_require = [
