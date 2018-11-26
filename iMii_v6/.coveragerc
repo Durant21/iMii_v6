@@ -1,0 +1,3 @@
+[run]
+source = iMii_v6
+omit = iMii_v6/test*
