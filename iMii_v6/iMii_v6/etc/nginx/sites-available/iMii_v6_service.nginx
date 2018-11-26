@@ -11,7 +11,7 @@ server {
         gzip_buffers    8 256k;
         uwsgi_buffers   8 256k;
 
-        alias /webapps/iMii_v6/iMii_v6/iMii_v6/static;
+        alias /webapps/iMii_v6/iMii_v6/iMii_v6/iMii_v6/static;
         expires 365d;
     }
     location / {

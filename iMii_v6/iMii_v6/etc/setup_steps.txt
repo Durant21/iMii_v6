@@ -38,11 +38,11 @@ git config --global credential.helper 'cache --timeout=360000'
 git clone https://github.com/Durant21/iMii_v6.git
 
 
-cd /webapps/iMii_v6/iMii_v6/
+cd /webapps/iMii_v6/iMii_v6/iMii_v6/
 python3 setup.py develop
 
 
-cp /webapps/iMii_v6/iMii_v6/iMii_v6/etc/init/iMii_v6_svc.service /etc/systemd/system/
+cp /webapps/iMii_v6/iMii_v6/iMii_v6/iMii_v6/etc/init/iMii_v6_svc.service /etc/systemd/system/
 
 systemctl start iMii_v6_svc
 systemctl enable iMii_v6_svc
@@ -52,8 +52,8 @@ systemctl status iMii_v6_svc
 # CAREFUL HERE. If you are using default, maybe skip this
 rm /etc/nginx/sites-enabled/default
 
-cp /webapps/iMii_v6/iMii_v6/iMii_v6/etc/nginx/sites-available/iMii_v6_service.nginx /etc/nginx/sites-available/
-cp /webapps/iMii_v6/iMii_v6/iMii_v6/etc/nginx/sites-available/iMii_v6_service.nginx /etc/nginx/sites-enabled/
+cp /webapps/iMii_v6/iMii_v6/iMii_v6/iMii_v6/etc/nginx/sites-available/iMii_v6_service.nginx /etc/nginx/sites-available/
+cp /webapps/iMii_v6/iMii_v6/iMii_v6/iMii_v6/etc/nginx/sites-available/iMii_v6_service.nginx /etc/nginx/sites-enabled/
 update-rc.d nginx enable
 
 service nginx start
