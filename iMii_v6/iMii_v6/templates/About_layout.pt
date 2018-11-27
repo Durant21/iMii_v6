@@ -144,8 +144,7 @@
         </div>
       <div class="col-sm-12  text-left" style="background-color:gray;height: 40px;font-size: 25px; color: rgb(98,69,99);">
         <div class="row">
-
-            <div class="col-sm-12" style="background-color:white; height: 60px;">
+            <div class="col-sm-12" style="padding-left: 75px; background-color:white; height: 60px;">
                 <p>ABOUT THE PROJECT</p>
             </div>
         </div>
@@ -156,12 +155,17 @@
             <div class="col-sm-3" style="background-color:white; height: 200px;">
                 <img src="/graphics/diamond.png" alt="Picture Description" usemap="#planetmap" style="width: 160px; height: 150px; left:400px">
             </div>
-            <div class="col-sm-9  text-left" style="background-color:white; height: 200px;">
-                This <strong>educational outreach pilot project</strong> engages with elementary and high school girls and young women to educate, debunk stereotypes and raise awareness around STEM-related career opportunities in the mining and mineral industry for women.  With the support of innovative approaches and tools, the project connects classrooms with the diverse female mining and minerals workforce as applied examples of the learning outcomes in the public school curriculum.  The ultimate ambition is to feed this key underrepresented group o the mining sector talent pipeline through inspirational interactions.
+            <div class="col-sm-9  text-left" style="padding-right: 75px; background-color:white; height: 200px;">
+                This <strong>educational outreach pilot project</strong> engages with elementary and high school girls and young
+                women to educate, debunk stereotypes and raise awareness around STEM-related career opportunities in the mining
+                and mineral industry for women.  With the support of innovative approaches and tools, the project connects
+                classrooms with the diverse female mining and minerals workforce as applied examples of the learning outcomes
+                in the public school curriculum.  The ultimate ambition is to feed this key underrepresented group of the mining
+                sector talent pipeline through inspirational interactions.
                 </div>
           </div>
     </div>
-      <div class="col-sm-12  text-left" style="background-color:white;height: 40px;font-size: 25px; color: rgb(98,69,99);">
+      <div class="col-sm-12  text-left" style="padding-left: 75px; background-color:white;height: 40px;font-size: 25px; color: rgb(98,69,99);">
         <p>ADDITIONAL INFORMATION</p>
     </div>
 
@@ -177,8 +181,8 @@
 
             <H4>Creating a Closer Community</H4>
         </div>
-          <div class="col-sm-9  text-left" style="background-color:white; height: 150px;">
-                The pilot project engages with a diverse cross-section of classrooms in Saskatoon, including academically gifted, inner city, community and Indigenous schools across grades 4 to 12.  Just as the classrooms are diverse, the industry women that classrooms will be uniquely connected to will represent wide-ranging careers in the Saskatchewan mining sector, with a focus on in-demand careers identified in the Saskatchewan Mining Industry Hiring Requirements and Available Talent Forecast.
+          <div class="col-sm-9  text-left" style="padding-right: 75px; background-color:white; height: 150px;">
+              The pilot project <strong>engages</strong> with <strong>a diverse cross-section of classrooms</strong> in Saskatoon, including academically gifted, inner city, community and Indigenous schools across grades 4 to 12.  Just as the classrooms are diverse, the industry women that classrooms will be uniquely connected to will represent wide-ranging careers in the Saskatchewan mining sector, with a focus on in-demand careers identified in the Saskatchewan Mining Industry Hiring Requirements and Available Talent Forecast.
         </div>
     </div>
 
@@ -193,8 +197,11 @@
         <div class="col-sm-9 text-left" style="background-color:white; height: 50px; color:rgb(98,69,99)">
                <H4>Gathering Top Talent</H4>
         </div>
-          <div class="col-sm-9 text-left" style="background-color:white; height: 50px;">
-                Women that embody the essence of being a role model will be selected by the project team to participate as mining industry representatives.  See the “Women in Mining” tab for profiles of the fantastic women we have included so far.  She will share her education, experiences (both positive and the hurdles she had to overcome), contributions and leadership in her company and community.  The representative and her lesson plan materials and activities will link to outcomes and indicators of the school curriculum, as created with the teacher and the Girls In The Classroom team.  The proposal team will make teacher-representative pairs that represent each of the 4 Mining Cycle stages (see the “Mining Cycle” tab).  Lesson plans and other materials created will be made available on the site as downloadable PDF’s and under the “Teacher Resources” tab.
+          <div class="col-sm-9 text-left" style="padding-right: 75px; background-color:white; height: 50px;">
+              <strong>Women that embody the essence of being a role model</strong> will be selected by the project
+              team to participate as mining industry representatives.  See the “Women in Mining” tab for profiles
+              of the fantastic women we have included so far.  She will share her education, experiences
+              (both positive and the hurdles she had to overcome), contributions and leadership in her company and community.  The representative and her lesson plan materials and activities will link to outcomes and indicators of the school curriculum, as created with the teacher and the Girls In The Classroom team.  The proposal team will make teacher-representative pairs that represent each of the 4 Mining Cycle stages (see the “Mining Cycle” tab).  Lesson plans and other materials created will be made available on the site as downloadable PDF’s and under the “Teacher Resources” tab.
         </div>
     </div>
         <div class="col-sm-12" style="background-color:white;height: 40px;font-size: 25px; color: white;">
@@ -210,17 +217,17 @@
         <div class="col-sm-9 text-left" style="background-color:white; height: 50px; color:rgb(98,69,99)">
                <H4>Exploring the Industry</H4>
         </div>
-          <div class="col-sm-9 text-left" style="background-color:white; height: 50px;">
+          <div class="col-sm-9 text-left" style="padding-right: 75px; background-color:white; height: 50px;">
                 Girls who are interested in more intently exploring the various careers presented can enter an essay competition to win a sponsorship package to a mining-relate educational camp of her choosing within the Saskatoon area or a one-day job shadow opportunity with the industry representatives and her company.  One girl from each pilot project classroom will be selected.  Check out what we’ve done so far under the “Our Projects” tab.
         </div>
     </div>
-      <div class="col-sm-12  text-left" style="background-color:white;height: 40px;font-size: 25px; color: rgb(98,69,99);">
+      <div class="col-sm-12  text-left" style="padding-left: 75px; background-color:white;height: 40px;font-size: 25px; color: rgb(98,69,99);">
         <p>JOIN THE GITC MOVEMENT</p>
     </div>
       <div class="col-sm-12" style="background-color:white;height: 600px;font-size: 25px; color: white;">
         <img src="/graphics/openletter_tmp.png" alt="Picture Description" usemap="#planetmap" style="width: 600px; height: 600px;">
     </div>
-      <div class="col-sm-12 text-left" style="background-color:rgb(98,69,99);height: 40px;font-size: 25px; color: white;">
+      <div class="col-sm-12 text-left" style="padding-left: 75px; background-color:rgb(98,69,99);height: 40px;font-size: 25px; color: white;">
         <p>PILOT PROJECT PARTNERS</p>
     </div>
       <div class="col-sm-12" style="background-color:lightgray;height: 10px;font-size: 25px; color: white;">

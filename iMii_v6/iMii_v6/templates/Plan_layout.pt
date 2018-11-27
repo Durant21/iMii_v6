@@ -116,7 +116,7 @@ Click on the Projects tab below to find out more about curriculum connections
 to the Plan stage.
       </p>
       <hr>
-
+        <input type="button" style="font-size:1.4vw; background-color: rgb(215,180,87);" class="button navbtn" value="OUR PROJECTS"     id="btnOurProjects"    onclick="location.href='OurProjects?t=plan'">
     </div>
   </div>
 </div>

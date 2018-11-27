@@ -62,7 +62,7 @@
 <body>
 
 
-<div id="includedHeader">header</div>
+<div id="includedHeader"></div>
 
 <div class="container-fluid text-center" style="background-color:white;">
   <div class="row content">
@@ -85,7 +85,7 @@
 </div>
 
 
-<div id="includedFooter">footer</div>
+<div id="includedFooter"></div>
 
     <script>
 

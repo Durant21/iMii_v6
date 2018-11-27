@@ -130,20 +130,20 @@
     <div class="col-sm-6 text-left">
       <h1>DISCOVER</h1>
       <p>
-The Discover stage of the Mining Cycle diagram marks the beginning of
-mining and minerals activities. In this stage, minerals of potentially economic
-concentrations are being explored for, leading to a “discovery”. This stage
-tends to involve geoscience and GIS (digital mapping) activities early on, with
-the integration of engineering and other sciences as the project advances.
-Community engagement and environmental assessment work is a key part of
-all Mining Cycle stages. Successful projects implement community
-engagement and environmental considerations at the project inception.
- <br><br><H3><strong>OUR PROJECTS</strong></H3><br>
-Click on the Projects tab below to find out more about curriculum connections
-to the Discover stage.
+            The Discover stage of the Mining Cycle diagram marks the beginning of
+            mining and minerals activities. In this stage, minerals of potentially economic
+            concentrations are being explored for, leading to a “discovery”. This stage
+            tends to involve geoscience and GIS (digital mapping) activities early on, with
+            the integration of engineering and other sciences as the project advances.
+            Community engagement and environmental assessment work is a key part of
+            all Mining Cycle stages. Successful projects implement community
+            engagement and environmental considerations at the project inception.
+             <br><br><H3><strong>OUR PROJECTS</strong></H3><br>
+            Click on the Projects tab below to find out more about curriculum connections
+            to the Discover stage.
       </p>
       <hr>
-
+            <input type="button" style="font-size:1.4vw; background-color: rgb(100,70,100);" class="button navbtn" value="OUR PROJECTS"     id="btnOurProjects"    onclick="location.href='OurProjects?t=discovery'">
     </div>
   </div>
 </div>

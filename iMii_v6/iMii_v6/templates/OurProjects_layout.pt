@@ -410,29 +410,16 @@
         });
 
         function populateTablesEvents() {
-                //alert('here');
-                // var grid = jQuery("#Grid_Events").jqGrid({
-                //     datatype: "json",
-                //     contentType: "application/json",
-                //     width: 1200,
-                //     scrollerbar: true,
-                //     height: 500,
-                //     colNames: ['fname', 'lname'],
-                //     colModel: [
-                //             { name: 'fname', index: 'fname', width: 40 },
-                //             { name: 'lname', index: 'lname', width: 40 }
-                //
-                //     ],
-                //     multiselect: false,
-                //     caption: "TSGrid_Events"
-                // });
 
                 //alert(getUrlBase() + "api/Events");
 
+            filter1 = '';
                // validate the user
                 var q = getParams1(window.location.href);
                 if (q) {
                     userid = q['k'];
+                    filter1 = q['t'];
+
                 } else {
                     userid = "";
                 }
@@ -444,6 +431,12 @@
 
                 } else {
                     userid = 'none';
+                }
+
+                var btn = document.getElementById("ttt");
+
+                if (filter1) {
+                    alert('filter1 = ' + tt);
                 }
 
                 $.ajax({
@@ -506,12 +499,6 @@
                     }
                 });
             }
-
-        // function getUrlBase() {
-        //     return 'http://localhost:6543/';
-        //     //return 'http://www.dev1.proto21.com/';
-        // }
-
 
         function OpenForEditImage(_id) {
             var modal = document.getElementById('imgModal');
@@ -683,6 +670,7 @@
         function modalEditEvent(id) {
            // Get the button that opens the modal
             var btn = document.getElementById("ttt");
+            alert('btn = ' + btn);
 
             // Get the <span> element that closes the modal
             var span = document.getElementsByClassName("close")[0];
@@ -701,30 +689,6 @@
 
         function generateEventsDiv(id, headline,img_url,event_date,description,event_url,userid) {
 
-            // <div class="col-sm-4 col-xs-12">
-            //     <div class="panel panel-default text-center">
-            //         <div class="panel-heading">
-            //             <h2><i>Event name</i></h2>
-            //         </div>
-            //         <div class="column">
-            //           <img src="http://gis.podassoc.com/iMii_images/stem1.png" alt="image" style="width:100%">
-            //             <br><br>
-            //         </div>
-            //         <div class="column">
-            //           <label><i>date</i></label>
-            //             <br><br>
-            //         </div>
-            //         <div class="panel-body">
-            //             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod </p>
-            //         </div>
-            //         <div class="panel-footer">
-            //           <button class="btn btn-lg">READ MORE</button>
-            //         </div>
-            //     </div>
-            // </div>
-
-            // <div class="container-fluid text-center">
-            // <div class="row content">
 
             // grab the main container
             var div1 = document.getElementById("div1");
