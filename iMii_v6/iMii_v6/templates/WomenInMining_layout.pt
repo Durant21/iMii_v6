@@ -143,7 +143,8 @@
     /* Set gray background color and 100% height */
     .sidenav {
       padding-top: 20px;
-      background-color: #f1f1f1;
+      /*background-color: #f1f1f1;*/
+        background-color: white;
       height: 100%;
     }
 
@@ -283,14 +284,10 @@ i>-->
       <!--?<p><a href="#">Link</a></p>-->
     </div>
     <div class="col-sm-8 text-left">
-      <h1>Women In Mining</h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor in
-            cididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitat
-            ion ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint occaecat cupid
-            atat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectet
-            ur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-            enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea comm
-            odo consequat.</p>
+      <h1>WOMEN IN MINING</h1>
+      <p>The women who volunteer to connect with teachers and students as part of the Girls In The Classroom project are outstanding people!  They’ve given of their time and shared their passion for all things mining and minerals to jointly create lesson plans with teachers and the Girls In The Classroom team. These exemplary women have experiences and career journeys that are inspirational to the next generation.  Their enthusiasm for their area of expertise, linked with their desire to share and support the next wave of female mining and minerals professionals makes them superb additions to the project. In fact, the Girls In The Classroom Project couldn’t achieve its objectives without them!  A heartfelt thank you to all of the many women that have given of themselves in the spirit of inspiration, knowledge-sharing and diversity!
+            <br><br>
+          Join us in recognizing and celebrating their greatness.  Together, we are branding the mining and minerals sector as an excellent place for women to contribute, lead and excel. </p>
       <hr>
 
 

@@ -58,7 +58,7 @@
     /* Set gray background color and 100% height */
     .sidenav {
       padding-top: 20px;
-      background-color: #f1f1f1;
+      background-color: white;
       height: 100%;
     }
 
@@ -180,8 +180,12 @@
               <!--?<p><a href="#">Link</a></p>-->
             </div>
             <div class="col-sm-8 text-left">
-          <h1>Our Projects</h1>
-          <!--?<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>-->
+          <h1>OUR PROJECTS</h1>
+          <p>
+              The <i>Girls In The Classroom – Unearthing Career Opportunities in Mining</i> project is proud to present the following events created with various classrooms and women from the mining and minerals industry.  A huge thank-you to the teachers, schools, students, women volunteers and their organizations for making these inspiring projects possible.  We hope that the following examples inspire others to get involved with our project or to complete their own mining and minerals STEM outreach activity, aimed at increasing the number of women employed in the mining sector!
+                <br><br>
+              The Upcoming Events are listed here as details unfold.  We’d love to hear from you – if you would like to be part of the GITC project as a volunteer, classroom, or supporting organization, or if you’d like to share how you mirrored one of our activities, contact us at <a href="mailto:Debra.Shewfelt@respec.com">Debra.Shewfelt@respec.com</a> or on Twitter @GITC_Mining.
+          </p>
           <hr>
 
             ﻿            <!-- Trigger/Open The Modal -->
