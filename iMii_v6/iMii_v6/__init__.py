@@ -55,6 +55,7 @@ def main(global_config, **settings):
         config.add_route( 'store_img2_view', '/store_img2_view' )
         config.add_route( 'store_img3_view', '/store_img3_view' )
         config.add_route( 'store_doc1_view', '/store_doc1_view' )
+        config.add_route( 'store_people_doc2_view', '/store_people_doc2_view' )
 
         config.add_route( 'autos_api', '/api/autos' )
         config.add_route( 'auto_api', '/api/auto/{car_id}' )
@@ -65,6 +66,7 @@ def main(global_config, **settings):
 
         config.add_route( 'events_api', '/api/events' )
         config.add_route( 'event_api', '/api/event/{event_id}' )
+        config.add_route('events_by_type_api', '/api/events/{event_type}')
 
         config.add_route( 'login_api', '/api/login' )
 
@@ -108,6 +110,7 @@ def register_routes(config):
 
     config.add_route( 'events_api', '/api/events' )
     config.add_route( 'event_api', '/api/event/{event_id}' )
+    config.add_route('events_by_type_api', '/api/events/{event_type}')
 
     # config.add_route( 'iMiiMasterHeader1', '/iMiiMasterHeader1' )
     # config.add_route( 'iMiiMasterFooter1', '/iMiiMasterFooter1' )

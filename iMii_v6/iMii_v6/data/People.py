@@ -29,8 +29,11 @@ class Person(SqlAlchemyBase):
     state = sqlalchemy.Column(sqlalchemy.String)
     img1 = sqlalchemy.Column( sqlalchemy.String )
     doc1 = sqlalchemy.Column( sqlalchemy.String )
+    doc2 = sqlalchemy.Column(sqlalchemy.String)
     interview = sqlalchemy.Column( sqlalchemy.String )
     interviewed = sqlalchemy.Column( sqlalchemy.String )
+    date_interviewed = sqlalchemy.Column(sqlalchemy.DateTime, index=True,
+                                  default=datetime.datetime.now)
     date_created = sqlalchemy.Column(sqlalchemy.DateTime, index=True,
                                   default=datetime.datetime.now)
 
@@ -51,8 +54,10 @@ class Person(SqlAlchemyBase):
             'state': self.state,
             'img1': self.img1,
             'doc1': self.doc1,
+            'doc2': self.doc2,
             'interviewed': self.interviewed,
             'interview': self.interviewed,
+            'date_interviewed': self.date_interviewed.isoformat(),
             'date_created': self.date_created.isoformat(),
             'id': self.id,
         }

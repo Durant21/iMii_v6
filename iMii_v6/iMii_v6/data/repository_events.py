@@ -44,6 +44,22 @@ class Repository_events:
 
         return event
 
+
+    @classmethod
+    def event_by_type(cls, events_type):
+        # cls.__load_data()
+        # return cls.__events_data.get(events_id)
+        session = DbSessionFactory.create_session()
+
+        # event = session.query(Event).filter(Event.event_type == "'" + events_type + "'")  #.first()
+        # event = session.query(Event).filter(Event.event_type = 'Discover').all()
+        #event = session.query(Event).filter(Event.event_type.like('Discover')).all()
+        event = session.query(Event).filter(Event.event_type.like(events_type)).all()
+        #directions = Directions.query.filter_by(key={somestring}).first()
+        session.close()
+
+        return event
+
     @classmethod
     def __load_data(cls):
         if cls.__events_data:
@@ -78,9 +94,11 @@ class Repository_events:
             # db_people.last_seen = parse( person.last_seen )  # parse(teacher.certdate)
             db_event.headline = event.headline
             db_event.description = event.description
+            db_event.event_type = event.event_type
             db_event.event_date = parse(event.event_date)
             # db_car.image = person.image if car.image else random.choice(cls.__fake_image_url)
-            db_event.url = event.url
+            db_event.url1 = event.url1
+            db_event.url2 = event.url2
             # db_car.teacherId = int(teacher.year)
             # db_people.price = int( person.price )
             # db_event.date_created = parse(event.date_created)
@@ -110,7 +128,9 @@ class Repository_events:
         # db_car.last_seen = parse(car_data.last_seen)
         db_event.headline = event_data.headline
         db_event.description = event_data.description
-        db_event.url = event_data.url
+        db_event.event_type = event_data.event_type
+        db_event.url1 = event_data.url1
+        db_event.url2 = event_data.url2
         db_event.event_date = parse( event_data.event_date )
 
         session.commit()

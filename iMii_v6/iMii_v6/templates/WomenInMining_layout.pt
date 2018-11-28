@@ -240,39 +240,7 @@
 </head>
 <body onload="populateTablesPeople()">
 
-   <!--?   HEADER  -->
-<!--?<nav class="navbar navbar-inverse">-->
-  <!--?<div class="container-fluid">-->
-    <!--?<div class="navbar-header">-->
-      <!--?<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=
-"#myNavbar">-->
-        <!--?<span class="icon-bar"></span>-->
-        <!--?<span class="icon-bar"></span>-->
-        <!--?<span class="icon-bar"></span>-->
-      <!--?</button>-->
-      <!--?<a class="navbar-brand" href="#">Logo</a>-->
-    <!--?</div>-->
-    <!--?<div class="collapse navbar-collapse" id="myNavbar">-->
-      <!--?<ul class="nav navbar-nav">-->
-          <!--?<li><input type="button" class="button navbtn" value="HOME" onclick="locati
-on.href='iMii';" ></li>-->
-          <!--?<li><input type="button" class="button navbtn" value="MINING CYCLE" onclick
-="location.href='MiningCycle';" ></li>-->
-          <!--?<li><input type="button" class="button navbtn" value="ABOUT" onclick="locat
-ion.href='About';" ></li>-->
-          <!--?<li><input type="button" class="button navbtn" value="TEACHER RESOURCES" on
-click="location.href='TeacherResources';" ></li>-->
-          <!--?<li><input type="button" class="button navbtn" value="NEWS & EVENTS" onclic
-k="location.href='NewsEvents';" ></li>-->
-      <!--?</ul>-->
 
-      <!--?<ul class="nav navbar-nav navbar-right">-->
-        <!--?<li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></l
-i>-->
-      <!--?</ul>-->
-    <!--?</div>-->
-  <!--?</div>-->
-<!--?</nav>-->
 
    <div id="includedHeader"></div>
 
@@ -360,6 +328,10 @@ i>-->
                               <input type="text" class="form-control control-width" id="state" placeholder="Enter state">
                             </div>
                             <div class="form-group">
+                                  <label for="date_interviewed">Interview Date:</label>
+                                  <input type="date" class="form-control control-width" id="date_interviewed" placeholder="Enter Date">
+                            </div>
+                            <div class="form-group">
                               <label for="interview">interview1:</label>
                               <input type="text" class="form-control control-width control-height" id="interview" placeholder="Enter inteview">
                             </div>
@@ -421,7 +393,7 @@ i>-->
                 <!--?<p>Some text in the Modal..</p>-->
 
                   <div class="container">
-                      <h2 id="lblDoc1Modal">Edit document</h2>
+                      <h2 id="lblDoc1Modal">Edit document 1</h2>
 
                         <!--?<div class="col-sm-8 text-left">-->
                           <h3>Document Upload</h3>
@@ -441,7 +413,33 @@ i>-->
               </div>
 
             </div>
+
+            <div id="doc2Modal" class="modal">
+              <!-- Modal content -->
+              <div class="modal-content">
+                <span class="close" onclick="closeDoc2Modal()">&times;</span>
+                <!--?<p>Some text in the Modal..</p>-->
+
+                  <div class="container">
+                      <h2 id="lblDoc2Modal">Edit document 2</h2>
+
+                          <h3>Document Upload</h3>
+                            <form action="/store_people_doc2_view" method="post" accept-charset="utf-8"
+                                  enctype="multipart/form-data">
+                                <input type="text" class="form-control control-width" id="doc2_id" name="doc2_id" placeholder="id">
+
+                                <label for="doc2">document file</label>
+                                <input id="doc2" name="doc2" type="file" value="" />
+                                <br>
+                                <input type="submit" value="submit" class="btn btn-default" />
+                            </form>
+
+                  </div>
+              </div>
+
+            </div>
         </div>
+
         <div id="div2" name="div2" class="col-sm-12 text-right" style="background-color: white; align-content:right">
             <button id="myBtnOpenAdd" hidden="true" title="Create a new Person"  onclick="OpenForAdd()">+</button>
         </div>
@@ -497,6 +495,7 @@ i>-->
             modal.style.display = "block";
         }
 
+
         function OpenForEditDoc1(_id) {
             var modal = document.getElementById('doc1Modal');
             var loc_id = document.getElementById('doc1_id');
@@ -505,6 +504,17 @@ i>-->
 
             modal.style.display = "block";
         }
+
+
+        function OpenForEditDoc2(_id) {
+            var modal = document.getElementById('doc2Modal');
+            var loc_id = document.getElementById('doc2_id');
+            loc_id.value = _id.toString();
+            loc_id.style.display = "none";
+
+            modal.style.display = "block";
+        }
+
 
         function OpenForEdit(_id,_headline,_fname,_lname,_title,_company,_email,_url1,_url2,_description,_address,_city,_state,_img1) {
             //id,name,title,company,email,url1,url2,description, address, city,state,img1
@@ -695,6 +705,7 @@ i>-->
             //headline.value = _headline;
 
             var date = document.getElementById('event_date');
+            date = document.getElementById('date_interviewed');
             //date.value = _event_date;
 
             var description = document.getElementById('description');
@@ -714,7 +725,8 @@ i>-->
                             '"city": "' + document.getElementById("city").value + '",' +
                             '"state": "' + document.getElementById("state").value + '",' +
                             '"img1": "' + document.getElementById("img1").value + '",' +
-                    '"interview": "' + document.getElementById("interview").value + '",' +
+                            '"interview": "' + document.getElementById("interview").value + '",' +
+                            '"date_interviewed": "' + document.getElementById("date_interviewed").value + '",' +
                             '"id": "' + document.getElementById("id").value +
                 '"}';
 
@@ -796,7 +808,6 @@ i>-->
                 } else {
                     userid = 'none';
                 }
-                //  if (userid.trim() == 'NONE' || userid.trim() == 'undefined') {
 
 
                 $.ajax({
@@ -834,13 +845,26 @@ i>-->
                         var event_name = 'the event name';
                         var event_url = 'www.respec.com';
                         if (jsonObj.id) {
-                            var doc_url = getUrlBase() + 'docs/' + jsonObj.id;
+                            var doc_url1 = getUrlBase() + 'docs/' + jsonObj.id;
                         } else {
-                            var doc_url = '';
+                            var doc_url1 = '';
                         }
 
-                        //var userid = '';
+//                        if ( typeof jsonObj[i]['doc2'] === undefined) {
+//
+//                        } else {
+//                            if (jsonObj[i]['doc2']) {
+//                                doc_url2 = getUrlBase() + "docs/" + jsonObj[i]['doc2'];
+//                            } else {
+//                                doc_url2 = '';
+//                            }
+//                        }
 
+//                        if (jsonObj[i]['doc2']) {
+//                            doc_url2 = getUrlBase() + "docs/" + jsonObj[i]['doc2'];
+//                        } else {
+//                            doc_url2 = '';
+//                        }
 
                         if (iLength) {
                             for (var i = 0; i <= data.length; i++) {
@@ -853,6 +877,7 @@ i>-->
                                     title = jsonObj[i]['title'];
                                     company = jsonObj[i]['company'];
                                     position = jsonObj[i]['position'];
+                                    event_date = jsonObj[i]['date_interviewed'];
                                     email = jsonObj[i]['email'];
                                     event_url = jsonObj[i]['url1'];
                                     url2 = jsonObj[i]['url2'];
@@ -862,14 +887,20 @@ i>-->
                                     state = jsonObj[i]['state'];
                                     img_url = getUrlBase() + "images/" + jsonObj[i]['img1'];
                                     if (jsonObj[i]['doc1']) {
-                                        doc_url = getUrlBase() + "docs/" + jsonObj[i]['doc1'];
+                                        doc_url1 = getUrlBase() + "docs/" + jsonObj[i]['doc1'];
                                     } else {
-                                        doc_url = '';
+                                        doc_url1 = '';
+                                    }
+
+                                    if (jsonObj[i]['doc2']) {
+                                        doc_url2 = getUrlBase() + "docs/" + jsonObj[i]['doc2'];
+                                    } else {
+                                        doc_url2 = '';
                                     }
 
                                     //console.log(aval)
                                     //generatePeopleDiv(id,fname,lname,title,company,email,url1,url2,description, address, city,state,img1,userid);
-                                    generateEventsDiv(id, event_name, img_url, event_date, description, event_url,doc_url, userid);
+                                    generateEventsDiv(id,fname,lname,company, event_name, img_url, event_date, description, event_url,url2,doc_url1,doc_url2, userid);
                                     //alert(jsonObj[i])
                                 }
                             }
@@ -878,7 +909,7 @@ i>-->
                         } else {
                             //id = jsonObj[i]['id'];
                             //generatePeopleDiv(id,fname,lname,title,company,email,url1,url2,description, address, city,state,img1);
-                                generateEventsDiv(id,event_name,img_url,event_date,description,event_url,doc_url, userid);
+                                generateEventsDiv(id,fname,lname,company, event_name,img_url,event_date,description,event_url,url2,doc_url1,doc_url2, userid);
                         }
 
                         // var jsonObj = data;
@@ -909,7 +940,7 @@ i>-->
             }
 
 
-        function generateEventsDiv(id, headline,img_url,event_date,description,event_url,doc_url,userid) {
+        function generateEventsDiv(id, fname, lname,company, headline, img_url,event_date,description,event_url1,event_url2,doc_url1,doc_url2,userid) {
 
 
             // grab the main container
@@ -934,8 +965,15 @@ i>-->
             innerDiv1b.className="panel-heading"
             //innerDiv1b.className="row1a text-center";//"row1a"
             var text1b = document.createElement("text")
-            text1b.innerHTML = headline;
+            text1b.innerHTML=fname + ' ' + lname;//headline;
             innerDiv1b.appendChild(text1b);
+
+            var innerDiv1b_b = document.createElement("div")
+            innerDiv1b_b.className="panel-heading"
+            //innerDiv1b.className="row1a text-center";//"row1a"
+            var text1b_b = document.createElement("text")
+            text1b_b.innerHTML=company;//headline;
+            innerDiv1b_b.appendChild(text1b_b);
 
             // create the EDIT button
             var innerDiv1button = document.createElement("button")
@@ -954,13 +992,13 @@ i>-->
             //                                                     + "'" + description + "',"
             //                                                     + "'" + event_url + "'"
             //                                                     + ")");
-            var fname = 'not collected';
-            var lname = 'not collected';
+            //var fname = 'not collected';
+            //var lname = 'not collected';
             var title = 'not collected';
-            var company = 'not collected';
+            //var company = 'not collected';
             var email = 'not collected';
-            var url1 = event_url;
-            var url2 = 'not collected';
+            var url1 = event_url1;
+            var url2 = event_url2;
             var address = 'not collected';
             var city = 'not collected';
             var state = 'not collected';
@@ -978,7 +1016,8 @@ i>-->
                                                                     + "'" + city + "',"
                                                                     + "'" + state + "',"
                                                                     + "'" + img_url + "',"
-                                                                    + "'" + doc_url + "'"
+                                                                    + "'" + doc_url1 + "',"
+                                                                    + "'" + doc_url2 + "'"
                                                                     + ")");
             if(userid){
                 if((userid.trim()=="none")||(userid.trim()=="undefined")){
@@ -1019,7 +1058,7 @@ i>-->
             innerDiv1buttonDoc1.setAttribute('id','ttt');
             innerDiv1buttonDoc1.setAttribute('content', 'test content');
             innerDiv1buttonDoc1.setAttribute('class', 'btn');
-            innerDiv1buttonDoc1.innerHTML = 'document';
+            innerDiv1buttonDoc1.innerHTML = 'document1';
 
             innerDiv1buttonDoc1.setAttribute('onclick', "OpenForEditDoc1('" + id.toString() + "'"
                                                                 + ")");
@@ -1036,6 +1075,27 @@ i>-->
 
             }
 
+            var innerDiv1buttonDoc2 = document.createElement("button");
+            innerDiv1buttonDoc2.setAttribute('id','ttt');
+            innerDiv1buttonDoc2.setAttribute('content', 'test content');
+            innerDiv1buttonDoc2.setAttribute('class', 'btn');
+            innerDiv1buttonDoc2.innerHTML = 'document2';
+
+            innerDiv1buttonDoc2.setAttribute('onclick', "OpenForEditDoc2('" + id.toString() + "'"
+                                                                + ")");
+
+
+            if(userid) {
+
+                if((userid.trim()=="none")||(userid.trim()=="undefined")){
+
+                } else {
+                    innerDiv1b_a.appendChild(innerDiv1buttonDoc2);
+                }
+            } else {
+
+            }
+
             var innerDiv1c = document.createElement("div")
             innerDiv1c.className="column"
             //var text1c = document.createElement("img")
@@ -1047,7 +1107,7 @@ i>-->
             var innerDiv1cc = document.createElement("div")
             innerDiv1cc.className="column"
             var text1cc = document.createElement("text")
-            text1cc.innerHTML = event_date;
+            text1cc.innerHTML = headline;//description;
             innerDiv1cc.appendChild(text1cc)
 
             var innerDiv1d = document.createElement("div")
@@ -1056,30 +1116,51 @@ i>-->
             //innerDiv1dText.innerText = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod"
             // <button class="btn btn-lg">READ MORE</button>
             var innerDiv1dText = document.createElement("text")
-            innerDiv1dText.innerHTML = description;
+            innerDiv1dText.innerHTML = "";// event_date;
             innerDiv1d.appendChild(innerDiv1dText)
 
 
             var innerDiv1e = document.createElement("div")
-            innerDiv1c.className="panel-footer"
+            innerDiv1e.className="panel-footer"
             var innerDiv1eButton = document.createElement("button")
             innerDiv1eButton.className="btn btn-lg";
             innerDiv1eButton.innerText = "go"//goo
-            innerDiv1eButton.setAttribute('onclick', "location.href = 'http://" + event_url + "';");
+            innerDiv1eButton.setAttribute('onclick', "location.href = 'http://" + event_url1 + "';");
             innerDiv1eButton.setAttribute('target', "_blank");
 
 
 
-            if (event_url) {
+            if (event_url1) {
                 var innerDiv1eAnchor = document.createElement("a")
                 //innerDiv1eAnchor.className="btn btn-lg";
-                innerDiv1eAnchor.innerText = "GO"
-                innerDiv1eAnchor.setAttribute('href', "http://" + event_url + "");
+                innerDiv1eAnchor.innerText = "GO1"
+                innerDiv1eAnchor.setAttribute('href', "http://" + event_url1 + "");
                 innerDiv1eAnchor.setAttribute('target', "_blank");
-                if (event_url != '') {
+                if (event_url1 != '') {
                     innerDiv1e.appendChild(innerDiv1eAnchor);
                 } else {
                     innerDiv1eAnchor.setAttribute('style:display', "none");
+                }
+            }
+
+            var innerDiv2e = document.createElement("div")
+            innerDiv2e.className="panel-footer"
+            var innerDiv2eButton = document.createElement("button")
+            innerDiv2eButton.className="btn btn-lg";
+            innerDiv2eButton.innerText = "go"
+            innerDiv2eButton.setAttribute('onclick', "location.href = 'http://" + event_url2 + "';");
+            innerDiv2eButton.setAttribute('target', "_blank");
+
+            if (event_url2) {
+                var innerDiv2eAnchor = document.createElement("a")
+                //innerDiv1eAnchor.className="btn btn-lg";
+                innerDiv2eAnchor.innerText = "GO2"
+                innerDiv2eAnchor.setAttribute('href', "http://" + event_url2 + "");
+                innerDiv2eAnchor.setAttribute('target', "_blank");
+                if (event_url2 != '') {
+                    innerDiv2e.appendChild(innerDiv2eAnchor);
+                } else {
+                    innerDiv2eAnchor.setAttribute('style:display', "none");
                 }
             }
 
@@ -1089,32 +1170,70 @@ i>-->
             var innerDiv1fButton = document.createElement("button")
             innerDiv1fButton.className="btn btn-lg";
             innerDiv1fButton.innerText = "go2";
-            innerDiv1fButton.setAttribute('onclick', "location.href = 'http://" + event_url + "';");
+            innerDiv1fButton.setAttribute('onclick', "location.href = 'http://" + event_url1 + "';");
             innerDiv1fButton.setAttribute('target', "_blank");
 
-            if (doc_url) {
+            if (doc_url1) {
                 var innerDiv1fAnchor = document.createElement("a")
                 //innerDiv1eAnchor.className="btn btn-lg";
                 innerDiv1fAnchor.innerText = "Download Document"
-                // innerDiv1fAnchor.setAttribute('href', "http://" + doc_url + "");
-                innerDiv1fAnchor.setAttribute('href', doc_url);
+                // innerDiv1fAnchor.setAttribute('href', "http://" + doc_url1 + "");
+                innerDiv1fAnchor.setAttribute('href', doc_url1);
                 innerDiv1fAnchor.setAttribute('target', "_blank");
-                if (doc_url != '') {
+                if (doc_url1 != '') {
                     innerDiv1f.appendChild(innerDiv1fAnchor);
                 } else {
                     innerDiv1fAnchor.setAttribute('style:display', "none");
                 }
             }
 
+
+
+//            if (doc_url1) {
+//                var innerDiv1fAnchor = document.createElement("a")
+//                //innerDiv1eAnchor.className="btn btn-lg";
+//                innerDiv1fAnchor.innerText = "Download Document1"
+//                // innerDiv1fAnchor.setAttribute('href', "http://" + doc_url1 + "");
+//                innerDiv1fAnchor.setAttribute('href', doc_url1);
+//                innerDiv1fAnchor.setAttribute('target', "_blank");
+//                if (doc_url1 != '') {
+//                    innerDiv1f.appendChild(innerDiv1fAnchor);
+//                } else {
+//                    innerDiv1fAnchor.setAttribute('style:display', "none");
+//                }
+//            }
+
+
+            var innerDiv1g = document.createElement("div")
+            innerDiv1g.className="panel-footer"
+
+            if (doc_url2) {
+                var innerDiv1gAnchor = document.createElement("a")
+                //innerDiv1eAnchor.className="btn btn-lg";
+                innerDiv1gAnchor.innerText = "Download Document2"
+                // innerDiv1fAnchor.setAttribute('href', "http://" + doc_url1 + "");
+                innerDiv1gAnchor.setAttribute('href', doc_url2);
+                innerDiv1gAnchor.setAttribute('target', "_blank");
+                if (doc_url2 != '') {
+                    innerDiv1g.appendChild(innerDiv1gAnchor);
+                } else {
+                    innerDiv1gAnchor.setAttribute('style:display', "none");
+                }
+            }
+
+
             div1.appendChild(innerDiv1)
             innerDiv1.appendChild(innerDiv1a)
             innerDiv1a.appendChild(innerDiv1b_a)
             innerDiv1a.appendChild(innerDiv1b)
+            innerDiv1a.appendChild(innerDiv1b_b)
             innerDiv1a.appendChild(innerDiv1c)
             innerDiv1a.appendChild(innerDiv1cc)
             innerDiv1a.appendChild(innerDiv1d)
             innerDiv1a.appendChild(innerDiv1e)
+            innerDiv1a.appendChild(innerDiv2e)
             innerDiv1a.appendChild(innerDiv1f)
+            innerDiv1a.appendChild(innerDiv1g)
 
         }
 
@@ -1267,6 +1386,11 @@ i>-->
         function closeDoc1Modal() {
             var doc1Modal = document.getElementById('doc1Modal');
             doc1Modal.style.display = "none";
+        }
+
+        function closeDoc2Modal() {
+            var doc2Modal = document.getElementById('doc2Modal');
+            doc2Modal.style.display = "none";
         }
 
     </script>

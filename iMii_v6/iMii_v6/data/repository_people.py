@@ -152,6 +152,7 @@ class Repository_people:
         db_person.email = person.email
         db_person.url1 = person.url1
         db_person.url2 = person.url2
+        # db_person.date_interviewed = person.date_interviewed
         db_person.description = person.description
         db_person.address = person.address
         db_person.city = person.city

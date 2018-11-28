@@ -156,7 +156,7 @@ def my_view16(request):
     store_img1_view(request)
     return {'project': 'People'}
 
-
+# People - img1
 def store_img1_view(request):
     # src:  https://docs.pylonsproject.org/projects/pyramid_cookbook/en/latest/forms/file_uploads.html
 
@@ -234,7 +234,7 @@ def my_view17(request):
     store_img2_view(request)
     return {'project': 'OurProjects'}
 
-
+# Events - img1
 def store_img2_view(request):
     try:
         # src:  https://docs.pylonsproject.org/projects/pyramid_cookbook/en/latest/forms/file_uploads.html
@@ -369,6 +369,7 @@ def store_img2_view(request):
 #     return {'project': 'iMii_v3'}
 
 
+# People - doc1
 @view_config(route_name='store_doc1_view', renderer='iMii_v6:templates/OurProjects.pt',
              request_method='POST')
 def my_view18(request):
@@ -451,13 +452,95 @@ def store_doc1_view(request):
         w("error: store_doc1_view - " + err)
 
 
+# People - doc2
+@view_config(route_name='store_people_doc2_view', renderer='iMii_v6:templates/WomenInMining.pt',
+             request_method='POST')
+def my_view18a(request):
+    store_people_doc2_view(request)
+    return {'project': 'OurProjects'}
+
+def store_people_doc2_view(request):
+    # src:  https://docs.pylonsproject.org/projects/pyramid_cookbook/en/latest/forms/file_uploads.html
+
+    try:
+
+        w('store_people_doc2_view()')
+
+        # ``filename`` contains the name of the file in string format.
+        #
+        # WARNING: this example does not deal with the fact that IE sends an
+        # absolute file *path* as the filename.  This example is naive; it
+        # trusts user input.
+
+        filename = request.POST['doc2'].filename
+
+        # ``input_file`` contains the actual file data which needs to be
+        # stored somewhere.
+
+        input_file = request.POST['doc2'].file
+
+        img_id = request.POST['doc2_id']
+
+        # Note that we are generating our own filename instead of trusting
+        # the incoming filename since that might result in insecure paths.
+        # Please note that in a real application you would not use /tmp,
+        # and if you write to an untrusted location you will need to do
+        # some extra work to prevent symlink attacks.
+        settings = request.registry.settings
+        sRelativePath = settings.get( 'doc_path' )
+        w('sRelativePath: ' + sRelativePath)
+
+        # print( 'path: {0}'.format( img_path ) )
+        # sRelativePath = os.getcwd()
+        # print( 'path: {0}'.format( sRelativePath ) )
+
+        # file_path = os.path.join('~/tmp', '%s.mp3' % uuid.uuid4())
+        # file_path = os.path.join( '/Users/dantefernandez/Projects/PythonScripts/FileUpload/prjFileUpload/prjFileUpload/tmp', '%s.jpg' % uuid.uuid4() )
+        # file_path = os.path.join( sRelativePath + '/docs/', '%s.jpg' % uuid.uuid4() )
+
+
+        file_path = os.path.join( sRelativePath + '/docs/', '%s.pdf' % uuid.uuid4() )
+        filename = filename[:-3]
+        file_path = os.path.join( sRelativePath + '/docs/', '%s' % filename + str(uuid.uuid4()) + '.pdf'  )
+
+        # We first write to a temporary file to prevent incomplete files from
+        # being used.
+
+        temp_file_path = file_path + '~'
+
+        # Finally write the data to a temporary file
+        input_file.seek(0)
+        with open(temp_file_path, 'wb') as output_file:
+            shutil.copyfileobj(input_file, output_file)
+
+        # Now that we know the file has been fully saved to disk move it into place.
+
+        os.rename(temp_file_path, file_path)
+        sBaseFileName = os.path.basename( file_path )
+        w( 'sBaseFileName: ' + sBaseFileName )
+
+        # TODO: "create insert statement for People images"
+        sDBPath = settings.get( 'db_path' )
+        w('sDBPath: ' + sDBPath)
+        db = sqlite3.connect( sDBPath + '/iMii_v3.sqlite' )
+        cursor = db.cursor()
+        # cursor.execute( '''SELECT * FROM People''' )
+        # user1 = cursor.fetchone()  # retrieve the first row
+        # print('people: ' + user1[0] )  # Print the first column retrieved(user's name)
+        cursor.execute('''UPDATE People SET doc2 = ? WHERE id = ?''',(sBaseFileName,img_id))
+        db.commit()  # Commit the change
+        return Response('OK')
+    except OSError as err:
+        w("error: store_people_doc2_view - " + err)
+
+
 @view_config(route_name='store_img3_view', renderer='iMii_v6:templates/WomenInMining.pt',
              request_method='POST')
 def my_view19(request):
     store_img3_view(request)
     return {'project': 'WomenInMining'}
 
-
+# People - img1
 def store_img3_view(request):
     # src:  https://docs.pylonsproject.org/projects/pyramid_cookbook/en/latest/forms/file_uploads.html
 

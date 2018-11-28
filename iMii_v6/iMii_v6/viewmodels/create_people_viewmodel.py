@@ -30,7 +30,9 @@ class CreatePersonViewModel( ViewModelBase ):
         state = self.data_dict.get( 'state' )
         interviewed = self.data_dict.get( 'interviewed' )
         interview = self.data_dict.get( 'interview' )
+        date_interviewed = self.data_dict.get('date_interviewed', -1)
         doc1 = self.data_dict.get( 'doc1' )
+        doc2 = self.data_dict.get('doc2')
         # img1 = self.data_dict.get( 'img1' )
         # image = self.data_dict.get('image')
         # price = self.data_dict.get('price')
@@ -69,7 +71,9 @@ class CreatePersonViewModel( ViewModelBase ):
                 state=state,
                 interviewed=interviewed,
                 interview=interview,
+                date_interviewed=date_interviewed,
                 doc1=doc1,
+                doc2=doc2,
                 id=id
             )
             self.Person = person

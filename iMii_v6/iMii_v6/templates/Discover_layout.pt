@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="static/aa.css">
+    <script src="scripts/common3.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
@@ -62,46 +63,20 @@
       }
       .row.content {height:auto;}
     }
-    .stickyfooter {
-           position: fixed;
-           left: 0;
-           bottom: 0;
-            height: 100px;
-           width: 100%;
-           background-color: dimgray;
-           color: white;
-           text-align: center;
-        }
+    /*.stickyfooter {*/
+           /*position: fixed;*/
+           /*left: 0;*/
+           /*bottom: 0;*/
+            /*height: 100px;*/
+           /*width: 100%;*/
+           /*background-color: dimgray;*/
+           /*color: white;*/
+           /*text-align: center;*/
+        /*}*/
   </style>
 </head>
 <body>
 
-   <!--?   HEADER  -->
-<!--?<nav class="navbar navbar-inverse">-->
-  <!--?<div class="container-fluid">-->
-    <!--?<div class="navbar-header">-->
-      <!--?<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">-->
-        <!--?<span class="icon-bar"></span>-->
-        <!--?<span class="icon-bar"></span>-->
-        <!--?<span class="icon-bar"></span>-->
-      <!--?</button>-->
-      <!--?<a class="navbar-brand" href="#">Logo</a>-->
-    <!--?</div>-->
-    <!--?<div class="collapse navbar-collapse" id="myNavbar">-->
-      <!--?<ul class="nav navbar-nav">-->
-          <!--?<li><input type="button" class="button navbtn" value="HOME" onclick="location.href='iMii';" ></li>-->
-          <!--?<li><input type="button" class="button navbtn" value="MINING CYCLE" onclick="location.href='MiningCycle';" ></li>-->
-          <!--?<li><input type="button" class="button navbtn" value="ABOUT" onclick="location.href='About';" ></li>-->
-          <!--?<li><input type="button" class="button navbtn" value="TEACHER RESOURCES" onclick="location.href='TeacherResources';" ></li>-->
-          <!--?<li><input type="button" class="button navbtn" value="NEWS & EVENTS" onclick="location.href='NewsEvents';" ></li>-->
-      <!--?</ul>-->
-
-      <!--?<ul class="nav navbar-nav navbar-right">-->
-        <!--?<li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>-->
-      <!--?</ul>-->
-    <!--?</div>-->
-  <!--?</div>-->
-<!--?</nav>-->
 
    <div id="includedHeader"></div>
 
@@ -130,7 +105,7 @@
     <div class="col-sm-6 text-left">
       <h1>DISCOVER</h1>
       <p>
-            The Discover stage of the Mining Cycle diagram marks the beginning of
+            The <strong>Discover</strong> stage of the Mining Cycle diagram marks the beginning of
             mining and minerals activities. In this stage, minerals of potentially economic
             concentrations are being explored for, leading to a “discovery”. This stage
             tends to involve geoscience and GIS (digital mapping) activities early on, with
@@ -143,7 +118,8 @@
             to the Discover stage.
       </p>
       <hr>
-            <input type="button" style="font-size:1.4vw; background-color: rgb(100,70,100);" class="button navbtn" value="OUR PROJECTS"     id="btnOurProjects"    onclick="location.href='OurProjects?t=discovery'">
+            <input type="button" style="font-size:1.4vw; background-color: rgb(100,70,100);border-radius: 8px;" class="button navbtn" value="PROJECTS"     id="btnOurProjects"    onclick="location.href='OurProjects?t=Discover'">
+    <br><br><br><br><br>
     </div>
   </div>
 </div>

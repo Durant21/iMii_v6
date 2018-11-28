@@ -18,14 +18,17 @@ class Event(SqlAlchemyBase):
     event_date = sqlalchemy.Column( sqlalchemy.DATE, index=True)
     description = sqlalchemy.Column(sqlalchemy.String, nullable=False)
     # title = sqlalchemy.Column(sqlalchemy.String)
+    event_type = sqlalchemy.Column(sqlalchemy.String)
     # position = sqlalchemy.Column(sqlalchemy.String)
     # email = sqlalchemy.Column(sqlalchemy.String)
-    url = sqlalchemy.Column(sqlalchemy.String)
-    # url2 = sqlalchemy.Column(sqlalchemy.String)
+    url1 = sqlalchemy.Column(sqlalchemy.String)
+    url2 = sqlalchemy.Column(sqlalchemy.String)
     # address = sqlalchemy.Column(sqlalchemy.String)
     # city = sqlalchemy.Column(sqlalchemy.String)
     # state = sqlalchemy.Column(sqlalchemy.String)
     img1 = sqlalchemy.Column( sqlalchemy.String )
+    doc1 = sqlalchemy.Column( sqlalchemy.String )
+    doc2 = sqlalchemy.Column(sqlalchemy.String)
     date_created = sqlalchemy.Column(sqlalchemy.DateTime, index=True,
                                    default=datetime.datetime.now)
 
@@ -34,8 +37,12 @@ class Event(SqlAlchemyBase):
             'headline': self.headline,
             'event_date': self.event_date.isoformat(),
             'description': self.description,
-            'url': self.url,
+            'event_type': self.event_type,
+            'url1': self.url1,
+            'url2': self.url2,
             'img1': self.img1,
+            'doc1': self.doc1,
+            'doc2': self.doc2,
             # 'date_created': self.date_created.isoformat(),
             'id': self.id,
         }

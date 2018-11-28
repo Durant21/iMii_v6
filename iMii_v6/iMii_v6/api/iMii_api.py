@@ -303,6 +303,20 @@ def single_event(request: Request):
     return event
 
 
+@view_config(route_name='events_by_type_api',
+             request_method='GET',
+             renderer='json')
+def type_event(request: Request):
+    event_type = request.matchdict.get('event_type')
+    event = Repository_events.event_by_type(event_type)
+
+    if not event:
+        msg= "The event with id '{}' was not found.".format(event_type)
+        return Response(status=404,json_body={'error:': msg})
+
+    return event
+
+
 @view_config(route_name='events_api',
              request_method='POST',
              renderer='json')

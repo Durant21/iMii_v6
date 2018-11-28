@@ -57,16 +57,16 @@
       }
       .row.content {height:auto;}
     }
-    .stickyfooter {
-           position: fixed;
-           left: 0;
-           bottom: 0;
-            height: 100px;
-           width: 100%;
-           background-color: dimgray;
-           color: white;
-           text-align: center;
-        }
+    /*.stickyfooter {*/
+           /*position: fixed;*/
+           /*left: 0;*/
+           /*bottom: 0;*/
+            /*height: 100px;*/
+           /*width: 100%;*/
+           /*background-color: dimgray;*/
+           /*color: white;*/
+           /*text-align: center;*/
+        /*}*/
   </style>
 </head>
 <body>
@@ -100,7 +100,7 @@
     <div class="col-sm-6 text-left">
       <h1>RECLAIM</h1>
       <p>
-The Reclaim stage of the Mining Cycle diagram marks the fourth and final
+The <strong>Reclaim</strong> stage of the Mining Cycle diagram marks the fourth and final
 stage of mining and minerals activities. In this stage, the mine, tailings or
 other surface wastes and buildings are decommissioned and the land is
 returned back to its former landscape. Additionally, mine workings can be
@@ -117,7 +117,8 @@ Click on the Projects tab below to find out more about curriculum connections
 to the Reclaim stage.
       </p>
       <hr>
-        <input type="button" style="font-size:1.4vw; background-color: rgb(196,198,186);" class="button navbtn" value="OUR PROJECTS"     id="btnOurProjects"  onclick="location.href='OurProjects?t=reclaim'">
+        <input type="button" style="font-size:1.4vw; background-color: rgb(196,198,186); border-radius: 8px;" class="button navbtn" value="PROJECTS"     id="btnOurProjects"  onclick="location.href='OurProjects?t=reclaim'">
+    <br><br><br><br><br>
     </div>
   </div>
 </div>

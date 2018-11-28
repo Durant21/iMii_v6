@@ -57,16 +57,16 @@
       }
       .row.content {height:auto;}
     }
-    .stickyfooter {
-           position: fixed;
-           left: 0;
-           bottom: 0;
-            height: 100px;
-           width: 100%;
-           background-color: dimgray;
-           color: white;
-           text-align: center;
-        }
+    /*.stickyfooter {*/
+           /*position: fixed;*/
+           /*left: 0;*/
+           /*bottom: 0;*/
+            /*height: 100px;*/
+           /*width: 100%;*/
+           /*background-color: dimgray;*/
+           /*color: white;*/
+           /*text-align: center;*/
+        /*}*/
   </style>
 </head>
 <body>
@@ -100,7 +100,7 @@
     <div class="col-sm-6 text-left">
       <h1>PLAN</h1>
       <p>
-The Plan stage of the Mining Cycle diagram marks the second stage of mining
+The <strong>Plan</strong> stage of the Mining Cycle diagram marks the second stage of mining
 and minerals activities. In this stage, minerals of potentially economic
 concentrations have been established, and the plans for the financing,
 engineering and processing of the extraction of the minerals from the ground
@@ -116,7 +116,8 @@ Click on the Projects tab below to find out more about curriculum connections
 to the Plan stage.
       </p>
       <hr>
-        <input type="button" style="font-size:1.4vw; background-color: rgb(215,180,87);" class="button navbtn" value="OUR PROJECTS"     id="btnOurProjects"    onclick="location.href='OurProjects?t=plan'">
+        <input type="button" style="font-size:1.4vw; background-color: rgb(215,180,87);border-radius: 8px;" class="button navbtn" value="PROJECTS"     id="btnOurProjects"    onclick="location.href='OurProjects?t=plan'">
+    <br><br><br><br><br>
     </div>
   </div>
 </div>

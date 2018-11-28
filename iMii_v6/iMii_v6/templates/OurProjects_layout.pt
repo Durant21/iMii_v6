@@ -143,6 +143,10 @@
             width: 80%;
         }
 
+        .control-width-30 {
+            width: 30%;
+        }
+
         /* Modal Content */
         .modal-content {
             background-color: #fefefe;
@@ -233,8 +237,17 @@
                                   <input type="text" class="form-control control-width" id="description" placeholder="Enter Content">
                                 </div>
                                   <div class="form-group">
-                                  <label for="content">URL:</label>
+                                  <label for="url">URL:</label>
                                   <input type="text" class="form-control control-width" id="url" placeholder="Enter URL Address">
+                                </div>
+                                <div class="form-group">
+                                  <label for="event_type">Type:</label>
+                                  <select class="form-control control-width-30" id="event_type">
+                                    <option>Discover</option>
+                                    <option>Plan</option>
+                                    <option>Mine</option>
+                                    <option>Reclaim</option>
+                                  </select>
                                 </div>
                                 <!--?<div class="checkbox">-->
                                   <!--?<label><input type="checkbox"> Remember me</label>-->
@@ -434,15 +447,20 @@
                 }
 
                 var btn = document.getElementById("ttt");
+                theURL = '';
 
                 if (filter1) {
-                    alert('filter1 = ' + tt);
+                   // alert('filter1 = ' + filter1);
+                    theURL = getUrlBase() + "api/events/" + filter1;
+                } else {
+                    theURL = getUrlBase() + "api/events";
                 }
 
                 $.ajax({
                     type: "GET",
                     //url: getUrlBase() + "api/event/818976f5-9ada-41c8-aac5-85b2a3ae0925",
-                    url: getUrlBase() + "api/events",
+                    //url: getUrlBase() + "api/events",
+                    url: theURL,
                     contentType: "application/json",
                     dataType: "json",
                     async: "true",
@@ -464,11 +482,12 @@
                         var img_url = getUrlBase() + jsonObj.img1;    //   http://gis.podassoc.com/iMii_images/stem1.png";
                         var event_date= jsonObj.event_date;
                         var description =  jsonObj.description;
+                        var event_type =  jsonObj.event_type;
                         var event_url= jsonObj.url;
 
 
                         if (id) {
-                            generateEventsDiv(id,event_name,img_url,event_date,description,event_url,userid);
+                            generateEventsDiv(id,event_name,img_url,event_date,description,event_url,event_type,userid);
                         } else {
                             for (var i = 0; i <= data.length; i++) {
                                 //jQuery("#Grid_Events").jqGrid('addRowData', i + 1, jsonObj[i]);
@@ -478,11 +497,12 @@
                                     //img_url = jsonObj[i]['lname']
                                     event_date = jsonObj[i]['event_date']
                                     description = jsonObj[i]['description']
+                                    event_type = jsonObj[i]['event_type']
                                     event_url = jsonObj[i]['url']
                                     img_url = getUrlBase() + "images/" + jsonObj[i]['img1'];
 
                                     //console.log(aval)
-                                    generateEventsDiv(id,event_name,img_url,event_date,description,event_url,userid);
+                                    generateEventsDiv(id,event_name,img_url,event_date,description,event_url,event_type,userid);
                                 }
                             }
                         }
@@ -508,7 +528,7 @@
             modal.style.display = "block";
         }
 
-        function OpenForEdit(_id,_headline,_img_url,_event_date,_description,_event_url) {
+        function OpenForEdit(_id,_headline,_img_url,_event_date,_description,_event_url, _event_type) {
             //id, headline,img_url,event_date,description,event_url
             var modal = document.getElementById('myModal');
 
@@ -529,6 +549,11 @@
 
             var description = document.getElementById('description');
             description.value = _description;
+
+            var event_type = document.getElementById('event_type');
+            event_type.value = _event_type;
+            //event_type.innerHTML = _event_type;
+
             //headline.innerHTML = headline;
             //var content = document.getElementById('headline');
             var url = document.getElementById('url');
@@ -597,6 +622,7 @@
                     '"headline": "' + document.getElementById("headline").value + '",' +
                     '"event_date": "' + document.getElementById("event_date").value + '",' +
                     '"description": "' + document.getElementById("description").value + '",' +
+                    '"event_type": "' + document.getElementById("event_type").value + '",' +
                     '"url": "' + document.getElementById("url").value + '"' +
                 '}';
 
@@ -635,13 +661,16 @@
 
             var description = document.getElementById('description');
 
+            var event_type = document.getElementById('event_type');
+
             var aNewsAndEvent = '{' +
-                '"headline": "' + document.getElementById("headline").value + '",' +
-                '"event_date": "' + document.getElementById("event_date").value + '",' +
-                '"description": "' + document.getElementById("description").value + '",' +
-                '"location": "' + document.getElementById("location").value + '",' +
+                    '"headline": "' + document.getElementById("headline").value + '",' +
+                    '"event_date": "' + document.getElementById("event_date").value + '",' +
+                    '"description": "' + document.getElementById("description").value + '",' +
+                    '"event_type": "' + document.getElementById("event_type").value + '",' +
+                    '"location": "' + document.getElementById("location").value + '",' +
                     '"url": "' + document.getElementById("url").value + '",' +
-                '"id": "' + document.getElementById("id").value +
+                    '"id": "' + document.getElementById("id").value +
                 '"}';
 
 
@@ -670,7 +699,7 @@
         function modalEditEvent(id) {
            // Get the button that opens the modal
             var btn = document.getElementById("ttt");
-            alert('btn = ' + btn);
+            //alert('btn = ' + btn);
 
             // Get the <span> element that closes the modal
             var span = document.getElementsByClassName("close")[0];
@@ -687,7 +716,7 @@
 
         }
 
-        function generateEventsDiv(id, headline,img_url,event_date,description,event_url,userid) {
+        function generateEventsDiv(id, headline,img_url,event_date,description,event_url,event_type,userid) {
 
 
             // grab the main container
@@ -728,7 +757,8 @@
                                                                 + "'" + img_url + "',"
                                                                 + "'" + event_date + "',"
                                                                 + "'" + description + "',"
-                                                                + "'" + event_url + "'"
+                                                                + "'" + event_url + "',"
+                                                                + "'" + event_type + "'"
                                                                 + ")");
 
             if(userid){

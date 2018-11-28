@@ -18,7 +18,9 @@ class CreateEventViewModel( ViewModelBase ):
         # brand = self.data_dict.get('brand')
         headline = self.data_dict.get('headline' )
         description = self.data_dict.get( 'description' )
-        url = self.data_dict.get('url')
+        event_type = self.data_dict.get( 'event_type' )
+        url1 = self.data_dict.get('url1')
+        url2 = self.data_dict.get('url2')
         # price = self.data_dict.get('price')
         # year = int(self.data_dict.get('year', -1))
         event_date = self.data_dict.get('event_date', -1 )
@@ -44,7 +46,9 @@ class CreateEventViewModel( ViewModelBase ):
             event = Event(
                     headline=headline,
                     description=description,
-                    url=url,
+                    event_type=event_type,
+                    url1=url1,
+                    url2=url2,
                     event_date=event_date,
                     id=id
             )
