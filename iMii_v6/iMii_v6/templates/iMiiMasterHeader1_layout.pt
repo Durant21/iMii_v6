@@ -5,25 +5,27 @@
       border-radius: 0;
     }
 
+
+
     .navbtn {
         font-size : 20px;
         white-space: normal;
         word-wrap: break-word;
     }
 
-          .button {
-            background-color: rgb(34,34,34);
-            border: none;
-            color: white;
-            padding: 15px 32px;
-            text-align: center;
-            text-decoration: none;
-            display: inline-block;
-            font-size: 24px;
-            margin: 4px 2px;
-            cursor: pointer;
-            font-family: Verdana, Geneva, sans-serif;
-        }
+    .button {
+        background-color: rgb(34,34,34);
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 24px;
+        margin: 4px 2px;
+        cursor: pointer;
+        font-family: Verdana, Geneva, sans-serif;
+    }
     @media screen and (max-width: 600px) {
       .topnav a:not(:first-child) {display: none;}
       .topnav a.icon {

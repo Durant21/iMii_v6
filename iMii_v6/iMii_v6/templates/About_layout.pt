@@ -8,6 +8,8 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <style>
+
+
       .button {
             background-color: black;
             border: none;
@@ -59,6 +61,10 @@
       .row.content {height:auto;}
     }
 
+    .stickyheader {
+        top: 0;
+    }
+
 
       .img1 {
     display: block;
@@ -78,60 +84,7 @@
 <div class="container-fluid text-center">
   <div class="row content">
 
-    <!--?<div class="col-sm-5 text-left" style="padding-top: 15px;">-->
-        <!--?<div class="row">-->
-            <!--?<div class="col-sm-12" style="background-color:yellow; height: 200px;">-->
-                <!--?<img src="http://gis.podassoc.com/iMii_images/aboutcircle1.png" alt="image" class="img1" style="width:200px;height:200px;">-->
-            <!--?</div>-->
-        <!--?</div>-->
-        <!--?<div class="row">-->
-            <!--?<div class="col-sm-12" style="background-color:white; height: 60px;">-->
-                <!--?<div class="col-sm-12" style="background-color:blue; height: 50px;">-->
-                    <!--?<img src="http://gis.podassoc.com/iMii_images/aboutplus.png" alt="image" class="img1" style="width:75px;height:50px;">-->
-                <!--?</div>-->
-            <!--?</div>-->
-        <!--?</div>-->
-        <!--?<div class="row">-->
-            <!--?<div class="col-sm-12" style="background-color:white; height: 200px;">-->
-                <!--?<img src="http://gis.podassoc.com/iMii_images/aboutcircle2.png" alt="image" class="img1" style="width:200px;height:200px;">-->
-            <!--?</div>-->
 
-        <!--?</div>-->
-        <!--?<div class="row">-->
-            <!--?<div class="col-sm-12" style="background-color:white; height: 60px;">-->
-                <!--?<div class="col-sm-12" style="background-color:white; height: 50px;">-->
-                    <!--?<img src="http://gis.podassoc.com/iMii_images/aboutequal.png" alt="image" class="img1" style="width:75px;height:50px;">-->
-                <!--?</div>-->
-            <!--?</div>-->
-        <!--?</div>-->
-        <!--?<div class="row">-->
-            <!--?<div class="col-sm-12" style="background-color:white; height: 200px;">-->
-                <!--?<img src="http://gis.podassoc.com/iMii_images/aboutcircle3.png" alt="image" class="img1" style="width:200px;height:200px;">-->
-            <!--?</div>-->
-
-        <!--?</div>-->
-        <!--?<div class="row">-->
-            <!--?<div class="col-sm-12" style="background-color:white; height: 400px;">-->
-                <!--?<img src="http://gis.podassoc.com/iMii_images/AboutMedallionLarge.png" alt="image" class="img1" style="width:400px;height:400px;">-->
-            <!--?</div>-->
-        <!--?</div>-->
-
-        <!--?<br><br><br><br><br><br><br>-->
-    <!--?</div>-->
-    <!--?<div class="col-sm-7 text-left" style="background-color:white;">-->
-        <!--?<br>-->
-        <!--?<img src="http://gis.podassoc.com/iMii_images/abouttext1.png" alt="image" style="width:100%">-->
-        <!--?<img src="http://gis.podassoc.com/iMii_images/abouttext2.png" alt="image" style="width:100%">-->
-        <!--?<p>This educational outreach pilot project will engage with elementary and high school girls and young women to educate, debunk stereotypes and raise awareness around STEM-related career opportunities in the mining and minerals industry for women.  With the support of innovative approaches and tools, the project will connect classrooms with the diverse female mining and minerals workforce as applied examples of the learning outcomes in the public school curriculum.  The ultimate ambition is to feed this key underrepresented group of the mining sector talent pipeline through inspirational interactions.   </p>-->
-        <!--?<p>The pilot project will engage with a diverse cross-section of classrooms in Saskatoon, including academically gifted, inner city, community and Indigenous schools across grades 4, 5, 7, 8 and 12.  Just as the classrooms are diverse, the industry women that classrooms will be uniquely connected to will represent wide-ranging careers in the Saskatchewan mining sector, with a focus on in-demand careers identified in the 2014 Saskatchewan Mining Industry Hiring Requirements and Available Talent Forecast (Section 6 - The Talent Gap).  Women that embody the essence of being a role model will be selected by the project team to participate as mining industry representatives.  She will discuss her education, experiences (both positive and the hurdles she had to overcome), contributions and leadership in her company and community.  The representative and her lesson plan materials and activities will link to outcomes and indicators of the school curriculum, as created with the teacher and proposal team.  The proposal team will make teacher-representative pairs for the pilot project and, where they occur, identify cross-pair synergies (ex. the Grade 4 Rocks and Minerals industry rep may also speak to the Earth Science 30 curriculum).  For the pilot, there will be 5 teacher-industry pairs minimum, each representing one of the Discovery, Plan, Mine and Reclaim mine cycle categories discussed in the classroom (see The Mining Cycle Diagram below).  Lesson plans and other materials created will be made available-->
-            <!--?on the <a href="http://www.GirlsInTheClassroom.org" target="_blank">www.GirlsInTheClassroom.org</a>  website as downloadable PDF's.  Teachers in other classrooms can use these resources, for example those involved with the Science Ambassadors program. </p>-->
-        <!--?<p>Girls who are interested in more intently exploring the various careers presented can enter an essay competition to win one of 3 sponsorship packages: the Saskatchewan Polytechnic GETT (Girls Exploring Trades and Technology) summer camp for 1 week in Saskatoon; Sci-Fi camp of their choosing for 1 week at the U of S; or a one-day job shadow opportunity with the industry representative and her company.  One girl from each pilot project classroom will be selected.-->
-        <!--?<p>Other camps, conferences and learning opportunities related to the subject matter will be brought to the classroom's attention, for example the Saskatchewan Polytechnic Women in Trades & Technology (WITT) program hosts a free Skills Work conference for young women from grades 9 to 12. </p>-->
-        <!--?<p>The project team has garnered the in-kind support of like-minded established programs such as the U of S Science Ambassador Program, the Women in Trades and Technology (WITT) and Girls Exploring Trades and Technology (GETT) programs through Saskatchewan Polytechnic, and several key volunteer groups such as WIM/WIN Saskatchewan.  Other like-minded programs will be consulted to ensure synergies with successful programs and to reach as wide an audience as possible in the pilot.</p>-->
-        <!--?<p>If you are interested in participating or would like to nominate someone from your organization, please contact the-->
-            <!--?Project Manager at <a href="mailto:Debra.Shewfelt@RESPEC.com">Debra.Shewfelt@RESPEC.com</a> !</p>-->
-        <!--?<p>We appreciate your support and interest.  Please continue to check back as we work on developing our full website page.</p>-->
-    <!--?</div>-->
         <div class="col-sm-12" style="background-color:white;height: 40px;font-size:    25px; color: white;">
 
         </div>
@@ -155,7 +108,7 @@
             <div class="col-sm-3" style="background-color:white; height: 200px;">
                 <img src="/graphics/diamond.png" alt="Picture Description" usemap="#planetmap" style="width: 160px; height: 150px; left:400px">
             </div>
-            <div class="col-sm-9  text-left" style="padding-right: 75px; background-color:white; height: 200px;">
+            <div class="col-sm-9  text-left" style="font-size: 20px; padding-right: 75px; background-color:white; height: 200px;">
                 This <strong>educational outreach pilot project</strong> engages with elementary and high school girls and young
                 women to educate, debunk stereotypes and raise awareness around STEM-related career opportunities in the mining
                 and mineral industry for women.  With the support of innovative approaches and tools, the project connects
@@ -179,9 +132,9 @@
         </div>
         <div class="col-sm-9  text-left" style="background-color:white; height: 50px; color:rgb(98,69,99)">
 
-            <H4>Creating a Closer Community</H4>
+            <H3>Creating a Closer Community</H3>
         </div>
-          <div class="col-sm-9  text-left" style="padding-right: 75px; background-color:white; height: 150px;">
+          <div class="col-sm-9  text-left" style="font-size: 20px; padding-right: 75px; background-color:white; height: 150px;">
               The pilot project <strong>engages</strong> with <strong>a diverse cross-section of classrooms</strong> in Saskatoon, including academically gifted, inner city, community and Indigenous schools across grades 4 to 12.  Just as the classrooms are diverse, the industry women that classrooms will be uniquely connected to will represent wide-ranging careers in the Saskatchewan mining sector, with a focus on in-demand careers identified in the Saskatchewan Mining Industry Hiring Requirements and Available Talent Forecast.
         </div>
     </div>
