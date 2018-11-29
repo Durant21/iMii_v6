@@ -19,7 +19,7 @@
       }
 
       .yy {
-          background-color: white;
+          background-color: red;
       }
       .btn {
             background-color: dodgerblue;
@@ -59,15 +59,28 @@
     border: 0px solid black;
 }
 
+
+/* keep the image in a specific-size box without stretching*/
 .img1 {
-    max-width: 100%;
-    max-height: 100%;
+    /*max-width: 100%;*/
+    /*max-height: 100%;*/
+    /*height: 150px;*/
+    /*width: 150px;*/
+
+    object-fit: cover;
+    width: 100%;
+    height: 150px;
 }
+
 .column {
     float: left;
     width: 100%;
     padding-right: 10px;
-    border: 0px solid black;
+    border: 0px solid white;
+    background-color: white;
+}
+
+.panelColor {
     background-color: white;
 }
 
@@ -78,6 +91,9 @@
     display: table;
 }
 
+.localVisibility {
+    visibility: visible; /*hidden;*/
+}
 .outer {
 	background-color: white;
 }
@@ -304,26 +320,26 @@
                               <input type="text" class="form-control control-width" id="email" placeholder="Enter E-mail">
                             </div>
                             <div class="form-group">
-                              <label for="url1">url1 (event URL):</label>
+                              <label for="url1">url1 (GO1):</label>
                               <input type="text" class="form-control control-width" id="url1" placeholder="Enter url1">
                             </div>
-                            <div class="form-group">
-                              <label for="url2">url2:</label>
+                            <div class="form-group localVisibility">
+                              <label for="url2">url2 (GO2):</label>
                               <input type="text" class="form-control control-width" id="url2" placeholder="Enter url2">
                             </div>
-                            <div class="form-group">
+                            <div class="form-group localVisibility">
                               <label for="description">description:</label>
                               <input type="text" class="form-control control-width" id="description" placeholder="Enter description">
                             </div>
-                            <div class="form-group">
+                            <div class="form-group localVisibility">
                               <label for="address">address:</label>
                               <input type="text" class="form-control control-width" id="address" placeholder="Enter address">
                             </div>
-                            <div class="form-group">
+                            <div class="form-group localVisibility">
                               <label for="city">city:</label>
                               <input type="text" class="form-control control-width" id="city" placeholder="Enter city">
                             </div>
-                            <div class="form-group">
+                            <div class="form-group localVisibility">
                               <label for="state">state:</label>
                               <input type="text" class="form-control control-width" id="state" placeholder="Enter state">
                             </div>
@@ -331,7 +347,7 @@
                                   <label for="date_interviewed">Interview Date:</label>
                                   <input type="date" class="form-control control-width" id="date_interviewed" placeholder="Enter Date">
                             </div>
-                            <div class="form-group">
+                            <div class="form-group localVisibility">
                               <label for="interview">interview1:</label>
                               <input type="text" class="form-control control-width control-height" id="interview" placeholder="Enter inteview">
                             </div>
@@ -940,7 +956,8 @@
             }
 
 
-        function generateEventsDiv(id, fname, lname,company, headline, img_url,event_date,description,event_url1,event_url2,doc_url1,doc_url2,userid) {
+        function generateEventsDiv(id, fname, lname,company, headline, img_url,event_date,
+                                   description,event_url1,event_url2,doc_url1,doc_url2,userid) {
 
 
             // grab the main container
@@ -969,7 +986,7 @@
             innerDiv1b.appendChild(text1b);
 
             var innerDiv1b_b = document.createElement("div")
-            innerDiv1b_b.className="panel-heading"
+            innerDiv1b_b.className="panel-footer panelColor"
             //innerDiv1b.className="row1a text-center";//"row1a"
             var text1b_b = document.createElement("text")
             text1b_b.innerHTML=company;//headline;
@@ -1033,6 +1050,7 @@
 
             }
 
+
             var innerDiv1buttonImg = document.createElement("button");
             innerDiv1buttonImg.setAttribute('id','ttt');
             innerDiv1buttonImg.setAttribute('content', 'test content');
@@ -1058,7 +1076,7 @@
             innerDiv1buttonDoc1.setAttribute('id','ttt');
             innerDiv1buttonDoc1.setAttribute('content', 'test content');
             innerDiv1buttonDoc1.setAttribute('class', 'btn');
-            innerDiv1buttonDoc1.innerHTML = 'document1';
+            innerDiv1buttonDoc1.innerHTML = 'Profile for Download';
 
             innerDiv1buttonDoc1.setAttribute('onclick', "OpenForEditDoc1('" + id.toString() + "'"
                                                                 + ")");
@@ -1096,6 +1114,7 @@
 
             }
 
+            // IMAGE
             var innerDiv1c = document.createElement("div")
             innerDiv1c.className="column"
             //var text1c = document.createElement("img")
@@ -1105,7 +1124,7 @@
             innerDiv1c.appendChild(text1c)
 
             var innerDiv1cc = document.createElement("div")
-            innerDiv1cc.className="column"
+            //innerDiv1cc.className="column"
             var text1cc = document.createElement("text")
             text1cc.innerHTML = headline;//description;
             innerDiv1cc.appendChild(text1cc)
@@ -1121,7 +1140,7 @@
 
 
             var innerDiv1e = document.createElement("div")
-            innerDiv1e.className="panel-footer"
+            innerDiv1e.className="panel-footer panelColor"
             var innerDiv1eButton = document.createElement("button")
             innerDiv1eButton.className="btn btn-lg";
             innerDiv1eButton.innerText = "go"//goo
@@ -1144,7 +1163,7 @@
             }
 
             var innerDiv2e = document.createElement("div")
-            innerDiv2e.className="panel-footer"
+            innerDiv2e.className="panel-footer panelColor"
             var innerDiv2eButton = document.createElement("button")
             innerDiv2eButton.className="btn btn-lg";
             innerDiv2eButton.innerText = "go"
@@ -1166,7 +1185,7 @@
 
 
             var innerDiv1f = document.createElement("div")
-            innerDiv1f.className="panel-footer"
+            innerDiv1f.className="panel-footer panelColor"
             var innerDiv1fButton = document.createElement("button")
             innerDiv1fButton.className="btn btn-lg";
             innerDiv1fButton.innerText = "go2";
@@ -1176,7 +1195,7 @@
             if (doc_url1) {
                 var innerDiv1fAnchor = document.createElement("a")
                 //innerDiv1eAnchor.className="btn btn-lg";
-                innerDiv1fAnchor.innerText = "Download Document"
+                innerDiv1fAnchor.innerText = "Profile for Download"
                 // innerDiv1fAnchor.setAttribute('href', "http://" + doc_url1 + "");
                 innerDiv1fAnchor.setAttribute('href', doc_url1);
                 innerDiv1fAnchor.setAttribute('target', "_blank");
@@ -1205,12 +1224,12 @@
 
 
             var innerDiv1g = document.createElement("div")
-            innerDiv1g.className="panel-footer"
+            innerDiv1g.className="panel-footer panelColor"
 
             if (doc_url2) {
                 var innerDiv1gAnchor = document.createElement("a")
                 //innerDiv1eAnchor.className="btn btn-lg";
-                innerDiv1gAnchor.innerText = "Download Document2"
+                innerDiv1gAnchor.innerText = "Download Document 2"
                 // innerDiv1fAnchor.setAttribute('href', "http://" + doc_url1 + "");
                 innerDiv1gAnchor.setAttribute('href', doc_url2);
                 innerDiv1gAnchor.setAttribute('target', "_blank");
@@ -1230,10 +1249,19 @@
             innerDiv1a.appendChild(innerDiv1c)
             innerDiv1a.appendChild(innerDiv1cc)
             innerDiv1a.appendChild(innerDiv1d)
-            innerDiv1a.appendChild(innerDiv1e)
-            innerDiv1a.appendChild(innerDiv2e)
-            innerDiv1a.appendChild(innerDiv1f)
-            innerDiv1a.appendChild(innerDiv1g)
+
+            if (event_url1) {
+                innerDiv1a.appendChild(innerDiv1e)      // GO1
+            }
+            if (event_url2) {
+                innerDiv1a.appendChild(innerDiv2e)      //  GO2
+            }
+            if (doc_url1) {
+                innerDiv1a.appendChild(innerDiv1f)      //  Download Document 1
+            }
+            if (doc_url1) {
+                innerDiv1a.appendChild(innerDiv1g)      // Download Document 2
+            }
 
         }
 

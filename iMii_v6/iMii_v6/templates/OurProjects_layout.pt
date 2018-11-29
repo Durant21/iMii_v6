@@ -45,8 +45,11 @@
     }
 
     .img1 {
-        max-width: 100%;
-        max-height: 100%;
+        /*max-width: 100%;*/
+        /*max-height: 100%;*/
+        object-fit: cover;
+        width: 100%;
+        height: 150px;
     }
 
     .navbtnuuu {
@@ -88,9 +91,9 @@
            text-align: center;
         }
 
-        .div1a {
-        width: 40%;
-        background-color: white; display: inline-block
+        .div1 {
+        width: 100%;
+        background-color: red; display: inline-block
         }
 
         .div1b {
@@ -100,6 +103,15 @@
 
         .div2 {
         width: 100%;background-color: lightblue;
+        }
+
+        .panelColor {
+            background-color: white;
+        }
+
+        .OuterPanelColor {
+            background-color: white;
+            outline-color: green;
         }
 
         .div2a {
@@ -184,186 +196,180 @@
               <!--?<p><a href="#">Link</a></p>-->
             </div>
             <div class="col-sm-8 text-left">
-          <h1>OUR PROJECTS</h1>
-          <p>
-              The <i>Girls In The Classroom – Unearthing Career Opportunities in Mining</i> project is proud to present the following events created with various classrooms and women from the mining and minerals industry.  A huge thank-you to the teachers, schools, students, women volunteers and their organizations for making these inspiring projects possible.  We hope that the following examples inspire others to get involved with our project or to complete their own mining and minerals STEM outreach activity, aimed at increasing the number of women employed in the mining sector!
-                <br><br>
-              The Upcoming Events are listed here as details unfold.  We’d love to hear from you – if you would like to be part of the GITC project as a volunteer, classroom, or supporting organization, or if you’d like to share how you mirrored one of our activities, contact us at <a href="mailto:Debra.Shewfelt@respec.com">Debra.Shewfelt@respec.com</a> or on Twitter @GITC_Mining.
-          </p>
-          <hr>
+                  <h1>OUR PROJECTS</h1>
+                  <p>
+                      The <i>Girls In The Classroom – Unearthing Career Opportunities in Mining</i> project is proud to present the following events created with various classrooms and women from the mining and minerals industry.  A huge thank-you to the teachers, schools, students, women volunteers and their organizations for making these inspiring projects possible.  We hope that the following examples inspire others to get involved with our project or to complete their own mining and minerals STEM outreach activity, aimed at increasing the number of women employed in the mining sector!
+                        <br><br>
+                      The Upcoming Events are listed here as details unfold.  We’d love to hear from you – if you would like to be part of the GITC project as a volunteer, classroom, or supporting organization, or if you’d like to share how you mirrored one of our activities, contact us at <a href="mailto:Debra.Shewfelt@respec.com">Debra.Shewfelt@respec.com</a> or on Twitter @GITC_Mining.
+                  </p>
+                  <hr>
 
-            ﻿            <!-- Trigger/Open The Modal -->
-                <!--?<button id="myBtn" onclick="OpenForAdd()">..r.</button>-->
+                    ﻿            <!-- Trigger/Open The Modal -->
+                        <!--?<button id="myBtn" onclick="OpenForAdd()">..r.</button>-->
 
-                <div id="div2" name="div2" class="col-sm-12 text-right" style="background-color: white; align-content:right">
-                    <button id="myBtnOpenAdd" hidden="true" title="Create a new Event" onclick="OpenForAdd()">+</button>
-                </div>
-                <div id="div1" name="div1" style="background-color: green">
+                        <div id="div2" name="div2" class="col-sm-12 text-right" style="background-color: white; align-content:right">
+                            <button id="myBtnOpenAdd" hidden="true" title="Create a new Event" onclick="OpenForAdd()">+</button>
+                        </div>
+                        <div id="div1" name="div1" >
 
-                    <!--?<input type="button" value="Generate a div." onclick="populateTablesEvents()">-->
-                </div>
+                            <!--?<input type="button" value="Generate a div." onclick="populateTablesEvents()">-->
+                        </div>
 
 
-                <!-- The Modal -->
-                <div id="myModal" class="modal">
+                        <!-- The Modal -->
+                        <div id="myModal" class="modal">
 
-                  <!-- Modal content -->
-                  <div class="modal-content">
-                    <span class="close">&times;</span>
-                    <!--?<p>Some text in the Modal..</p>-->
+                          <!-- Modal content -->
+                          <div class="modal-content">
+                            <span class="close">&times;</span>
+                            <!--?<p>Some text in the Modal..</p>-->
 
-                      <div class="container">
-                          <h2 id="lblEventModal">Edit item</h2>
-                          <!--?<form>-->
+                              <div class="container">
+                                  <h2 id="lblEventModal">Edit item</h2>
+                                  <!--?<form>-->
 
-                                <div class="form-group">
-                                  <label for="id"></label>
-                                  <input type="text" class="form-control control-width" id="id" placeholder="id">
-                                </div>
-                                <div class="form-group">
-                                  <label for="headline">headline:</label>
-                                  <input type="text" class="form-control control-width" id="headline" placeholder="Enter headline">
-                                </div>
-                                <div class="form-group">
-                                  <label for="event_date">Date:</label>
-                                  <input type="date" class="form-control control-width" id="event_date" placeholder="Enter Date">
-                                </div>
-                                  <div class="form-group">
-                                  <label for="location">Location:</label>
-                                  <input type="text" class="form-control control-width" id="location" placeholder="Enter Location">
-                                </div>
-                                  <div class="form-group">
-                                  <label for="content">Content:</label>
-                                  <input type="text" class="form-control control-width" id="description" placeholder="Enter Content">
-                                </div>
-                                  <div class="form-group">
-                                  <label for="url">URL:</label>
-                                  <input type="text" class="form-control control-width" id="url" placeholder="Enter URL Address">
-                                </div>
-                                <div class="form-group">
-                                  <label for="event_type">Type:</label>
-                                  <select class="form-control control-width-30" id="event_type">
-                                    <option>Discover</option>
-                                    <option>Plan</option>
-                                    <option>Mine</option>
-                                    <option>Reclaim</option>
-                                  </select>
-                                </div>
-                                <!--?<div class="checkbox">-->
-                                  <!--?<label><input type="checkbox"> Remember me</label>-->
+                                        <div class="form-group">
+                                          <label for="id"></label>
+                                          <input type="text" class="form-control control-width" id="id" placeholder="id">
+                                        </div>
+                                        <div class="form-group">
+                                          <label for="headline">headline:</label>
+                                          <input type="text" class="form-control control-width" id="headline" placeholder="Enter headline">
+                                        </div>
+                                        <div class="form-group">
+                                          <label for="event_date">Date:</label>
+                                          <input type="date" class="form-control control-width" id="event_date" placeholder="Enter Date">
+                                        </div>
+                                          <div class="form-group">
+                                          <label for="location">Location:</label>
+                                          <input type="text" class="form-control control-width" id="location" placeholder="Enter Location">
+                                        </div>
+                                          <div class="form-group">
+                                          <label for="content">Content:</label>
+                                          <input type="text" class="form-control control-width" id="description" placeholder="Enter Content">
+                                        </div>
+                                          <div class="form-group">
+                                          <label for="url1">URL1:</label>
+                                          <input type="text" class="form-control control-width" id="url1" placeholder="Enter URL Address">
+                                        </div>
+                                            <div class="form-group">
+                                          <label for="url2">URL2:</label>
+                                          <input type="text" class="form-control control-width" id="url2" placeholder="Enter URL Address">
+                                        </div>
+                                        <div class="form-group">
+                                          <label for="event_type">Type:</label>
+                                          <select class="form-control control-width-30" id="event_type">
+                                            <option>Discover</option>
+                                            <option>Plan</option>
+                                            <option>Mine</option>
+                                            <option>Reclaim</option>
+                                          </select>
+                                        </div>
+                                        <!--?<div class="checkbox">-->
+                                          <!--?<label><input type="checkbox"> Remember me</label>-->
+                                        <!--?</div>-->
+                                  <button id="btnWrite" type="button" class="btn btn-default" onclick="UpdateNewsAndEvents()">Update</button>
+                                        <!--?<button type="submit" class="btn btn-default">Submit</button>-->
+                                  <!--?</form>-->
+                              </div>
+                          </div>
+
+                        </div>
+                        <div id="imgModal" class="modal">
+                            <!-- Modal content -->
+                            <div class="modal-content">
+                        <span class="close" onclick="closeImgModal()">&times;</span>
+                        <!--?<p>Some text in the Modal..</p>-->
+
+                          <div class="container">
+                              <h2 id="lblImgModal">Edit image</h2>
+
+                                <!--?<div class="col-sm-8 text-left">-->
+                                  <h3>File Upload</h3>
+                                    <form action="/store_img2_view" method="post" accept-charset="utf-8"
+                                          enctype="multipart/form-data">
+
+                                        <input type="text" class="form-control control-width" style="display:none" id="img_id" name="img_id" placeholder="id">
+
+                                        <label for="img1">image file</label>
+                                        <input id="img1" name="img1" type="file" value="" />
+                                        <br>
+                                        <input type="submit" value="submit" class="btn btn-default" />
+                                    </form>
+
+
                                 <!--?</div>-->
-                          <button id="btnWrite" type="button" class="btn btn-default" onclick="UpdateNewsAndEvents()">Update</button>
-                                <!--?<button type="submit" class="btn btn-default">Submit</button>-->
-                          <!--?</form>-->
+                          </div>
                       </div>
-                  </div>
+                        </div>
 
+
+
+                        <div id="doc1Modal" class="modal">
+
+                          <!-- Modal content -->
+                          <div class="modal-content">
+                            <span class="close" onclick="closeDoc1Modal()">&times;</span>
+                            <!--?<p>Some text in the Modal..</p>-->
+
+                              <div class="container">
+                                  <h2 id="lblDoc1Modal">Edit document 1</h2>
+
+                                    <!--?<div class="col-sm-8 text-left">-->
+                                      <h3>Document Upload</h3>
+                                        <form action="/store_events_doc1_view" method="post" accept-charset="utf-8"
+                                              enctype="multipart/form-data">
+                                            <input type="text" class="form-control control-width" id="doc1_id" name="doc1_id" placeholder="id">
+
+                                            <label for="img1">document file</label>
+                                            <input id="doc1" name="doc1" type="file" value="" />
+                                            <br>
+                                            <input type="submit" value="submit" class="btn btn-default" />
+                                        </form>
+
+
+                                    <!--?</div>-->
+                              </div>
+                          </div>
+
+                        </div>
+
+                        <div id="doc2Modal" class="modal">
+                          <!-- Modal content -->
+                          <div class="modal-content">
+                            <span class="close" onclick="closeDoc2Modal()">&times;</span>
+                            <!--?<p>Some text in the Modal..</p>-->
+
+                              <div class="container">
+                                  <h2 id="lblDoc2Modal">Edit document 2</h2>
+
+                                      <h3>Document Upload</h3>
+                                        <form action="/store_events_doc2_view" method="post" accept-charset="utf-8"
+                                              enctype="multipart/form-data">
+                                            <input type="text" class="form-control control-width" id="doc2_id" name="doc2_id" placeholder="id">
+
+                                            <label for="doc2">document file</label>
+                                            <input id="doc2" name="doc2" type="file" value="" />
+                                            <br>
+                                            <input type="submit" value="submit" class="btn btn-default" />
+                                        </form>
+
+                              </div>
+                          </div>
+
+                        </div>
+
+
+
+                    <br><br><br><br><br><br><br><br><br><br><br><br>
+                    <br><br><br><br><br><br><br><br><br><br><br>
+                    <br><br><br><br><br><br><br><br><br><br>
+                    <br><br><br><br><br><br><br><br><br><br><br>
+
+                    <!--?<div class="col-sm-2 sidenav">-->
+                    <!--?</div>-->
                 </div>
-                <div id="imgModal" class="modal">
 
-              <!-- Modal content -->
-              <div class="modal-content">
-                <span class="close" onclick="closeImgModal()">&times;</span>
-                <!--?<p>Some text in the Modal..</p>-->
-
-                  <div class="container">
-                      <h2 id="lblImgModal">Edit image</h2>
-
-                        <!--?<div class="col-sm-8 text-left">-->
-                          <h3>File Upload</h3>
-                            <form action="/store_img2_view" method="post" accept-charset="utf-8"
-                                  enctype="multipart/form-data">
-
-                                <input type="text" class="form-control control-width" style="display:none" id="img_id" name="img_id" placeholder="id">
-
-                                <label for="img1">image file</label>
-                                <input id="img1" name="img1" type="file" value="" />
-                                <br>
-                                <input type="submit" value="submit" class="btn btn-default" />
-                            </form>
-
-
-                        <!--?</div>-->
-                  </div>
-              </div>
-
-            </div>
-
-
-
-            <!--?START EVENT PANELS-->
-            <!--?<div class="col-sm-4 col-xs-12">-->
-                <!--?<div class="panel panel-default text-center">-->
-                    <!--?<div class="panel-heading">-->
-                        <!--?<h2><i>Event name</i></h2>-->
-                    <!--?</div>-->
-                    <!--?<div class="column">-->
-                      <!--?<img src="http://gis.podassoc.comm/iMii_images/stem1.png" alt="image" style="width:100%">-->
-                        <!--?<br><br>-->
-                    <!--?</div>-->
-                    <!--?<div class="column">-->
-                      <!--?<label><i>date</i></label>-->
-                        <!--?<br><br>-->
-                    <!--?</div>-->
-                    <!--?<div class="panel-body">-->
-                        <!--?<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod </p>-->
-                    <!--?</div>-->
-                    <!--?<div class="panel-footer">-->
-                      <!--?<button class="btn btn-lg">READ MORE</button>-->
-                    <!--?</div>-->
-                <!--?</div>-->
-            <!--?</div>-->
-            <!--?<div class="col-sm-4 col-xs-12">-->
-                <!--?<div class="panel panel-default text-center">-->
-                    <!--?<div class="panel-heading">-->
-                        <!--?<h2><i>Event name</i></h2>-->
-                    <!--?</div>-->
-                    <!--?<div class="column">-->
-                      <!--?<img src="http://gis.podassoc.com/iMii_images/stem2.png" alt="image" style="width:100%">-->
-                        <!--?<br><br>-->
-                    <!--?</div>-->
-                    <!--?<div class="column">-->
-                      <!--?<label><i>date</i></label>-->
-                        <!--?<br><br>-->
-                    <!--?</div>-->
-                    <!--?<div class="panel-body">-->
-                        <!--?<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod </p>-->
-                    <!--?</div>-->
-                    <!--?<div class="panel-footer">-->
-                      <!--?<button class="btn btn-lg">READ MORE</button>-->
-                    <!--?</div>-->
-                <!--?</div>-->
-            <!--?</div>-->
-            <!--?<div class="col-sm-4 col-xs-12">-->
-                <!--?<div class="panel panel-default text-center">-->
-                    <!--?<div class="panel-heading">-->
-                        <!--?<h2><i>Event name</i></h2>-->
-                    <!--?</div>-->
-                    <!--?<div class="column">-->
-                      <!--?<img src="http://gis.podassoc.com/iMii_images/stem3.png" alt="image" style="width:100%">-->
-                        <!--?<br><br>-->
-                    <!--?</div>-->
-                    <!--?<div class="column">-->
-                      <!--?<label><i>date</i></label>-->
-                        <!--?<br><br>-->
-                    <!--?</div>-->
-                    <!--?<div class="panel-body">-->
-                        <!--?<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod </p>-->
-                    <!--?</div>-->
-                    <!--?<div class="panel-footer">-->
-                      <!--?<button class="btn btn-lg">READ MORE</button>-->
-                    <!--?</div>-->
-                <!--?</div>-->
-            <!--?</div>-->
-
-            <br><br><br><br><br><br><br><br><br><br><br><br>
-            <br><br><br><br><br><br><br><br><br><br><br>
-            <br><br><br><br><br><br><br><br><br><br>
-            <br><br><br><br><br><br><br><br><br><br><br>
-
-            <!--?<div class="col-sm-2 sidenav">-->
-            <!--?</div>-->
-        </div>
         </div>
     </div>
 
@@ -483,11 +489,22 @@
                         var event_date= jsonObj.event_date;
                         var description =  jsonObj.description;
                         var event_type =  jsonObj.event_type;
-                        var event_url= jsonObj.url;
+                        var event_url1= jsonObj.url1;
+                        var event_url2= jsonObj.url2;
+                        if (jsonObj.id) {
+                            var doc_url1 = getUrlBase() + 'docs/' + jsonObj.id;
+                        } else {
+                            var doc_url1 = '';
+                        }
 
+                        if (jsonObj.id) {
+                            var doc_url2 = getUrlBase() + 'docs/' + jsonObj.id;
+                        } else {
+                            var doc_url2 = '';
+                        }
 
                         if (id) {
-                            generateEventsDiv(id,event_name,img_url,event_date,description,event_url,event_type,userid);
+                            generateEventsDiv(id,event_name,img_url,event_date,description,event_url1,event_url2,doc_url1, doc_url2,event_type,userid);
                         } else {
                             for (var i = 0; i <= data.length; i++) {
                                 //jQuery("#Grid_Events").jqGrid('addRowData', i + 1, jsonObj[i]);
@@ -498,11 +515,24 @@
                                     event_date = jsonObj[i]['event_date']
                                     description = jsonObj[i]['description']
                                     event_type = jsonObj[i]['event_type']
-                                    event_url = jsonObj[i]['url']
+                                    event_url1 = jsonObj[i]['url1']
+                                    event_url2 = jsonObj[i]['url2']
                                     img_url = getUrlBase() + "images/" + jsonObj[i]['img1'];
 
+                                    if (jsonObj[i]['doc1']) {
+                                        doc_url1 = getUrlBase() + "docs/" + jsonObj[i]['doc1'];
+                                    } else {
+                                        doc_url1 = '';
+                                    }
+
+                                    if (jsonObj[i]['doc2']) {
+                                        doc_url2 = getUrlBase() + "docs/" + jsonObj[i]['doc2'];
+                                    } else {
+                                        doc_url2 = '';
+                                    }
+
                                     //console.log(aval)
-                                    generateEventsDiv(id,event_name,img_url,event_date,description,event_url,event_type,userid);
+                                    generateEventsDiv(id,event_name,img_url,event_date,description,event_url1,event_url2,doc_url1, doc_url2, event_type,userid);
                                 }
                             }
                         }
@@ -528,7 +558,35 @@
             modal.style.display = "block";
         }
 
-        function OpenForEdit(_id,_headline,_img_url,_event_date,_description,_event_url, _event_type) {
+        function OpenForEditDoc1(_id) {
+            var modal = document.getElementById('doc1Modal');
+            var loc_id = document.getElementById('doc1_id');
+            loc_id.value = _id.toString();
+            loc_id.style.display = "none";
+
+            modal.style.display = "block";
+        }
+
+        function OpenForEditDoc2(_id) {
+            var modal = document.getElementById('doc2Modal');
+            var loc_id = document.getElementById('doc2_id');
+            loc_id.value = _id.toString();
+            loc_id.style.display = "none";
+
+            modal.style.display = "block";
+        }
+
+        function closeDoc1Modal() {
+            var doc1Modal = document.getElementById('doc1Modal');
+            doc1Modal.style.display = "none";
+        }
+
+        function closeDoc2Modal() {
+            var doc2Modal = document.getElementById('doc2Modal');
+            doc2Modal.style.display = "none";
+        }
+
+        function OpenForEdit(_id,_headline,_img_url,_event_date,_description,_event_url1,_event_url2, _event_type) {
             //id, headline,img_url,event_date,description,event_url
             var modal = document.getElementById('myModal');
 
@@ -556,8 +614,11 @@
 
             //headline.innerHTML = headline;
             //var content = document.getElementById('headline');
-            var url = document.getElementById('url');
-            url.value = _event_url;
+            var url1 = document.getElementById('url1');
+            url1.value = _event_url1;
+
+            var url2 = document.getElementById('url2');
+            url2.value = _event_url2;
 
             modal.style.display = "block";
 
@@ -623,9 +684,10 @@
                     '"event_date": "' + document.getElementById("event_date").value + '",' +
                     '"description": "' + document.getElementById("description").value + '",' +
                     '"event_type": "' + document.getElementById("event_type").value + '",' +
-                    '"url": "' + document.getElementById("url").value + '"' +
+                    '"url": "' + document.getElementById("url1").value + '"' +
                 '}';
 
+            alert('event: ' + aNewsAndEvent)
             $.ajax({
                 url: getUrlBase() + "api/events",
                 type: "POST",
@@ -669,7 +731,8 @@
                     '"description": "' + document.getElementById("description").value + '",' +
                     '"event_type": "' + document.getElementById("event_type").value + '",' +
                     '"location": "' + document.getElementById("location").value + '",' +
-                    '"url": "' + document.getElementById("url").value + '",' +
+                    '"url1": "' + document.getElementById("url1").value + '",' +
+                    '"url2": "' + document.getElementById("url2").value + '",' +
                     '"id": "' + document.getElementById("id").value +
                 '"}';
 
@@ -716,19 +779,20 @@
 
         }
 
-        function generateEventsDiv(id, headline,img_url,event_date,description,event_url,event_type,userid) {
+        function generateEventsDiv(id, headline,img_url,event_date,description,event_url1,event_url2,doc_url1, doc_url2,event_type,userid) {
 
 
             // grab the main container
             var div1 = document.getElementById("div1");
-            // div1.className = "container-fluid text-center";
-            //
+            div1.className = "container-fluid text-center";
+            //div1.className = "div1";
+
             // var div1a = document.createElement("div")
             // div1a.className = "row content\"";
 
             // create an inner-div
             var innerDiv1 = document.createElement("div")
-            innerDiv1.className = "col-sm-4 col-xs-12";
+            innerDiv1.className = "col-sm-4 col-xs-12   OuterPanelColor";
 
             var innerDiv1a = document.createElement("div")
             innerDiv1a.className="panel panel-default text-center"
@@ -737,14 +801,16 @@
             //innerDiv1b.className="panel-heading"
             innerDiv1b_a.className="row1a text-right";//"row1a"
 
+
+            // HEADLINE
             var innerDiv1b = document.createElement("div")
-            innerDiv1b.className="panel-heading"
+            innerDiv1b.className="panel-heading  panelColor"
             //innerDiv1b.className="row1a text-right";//"row1a"
             var text1b = document.createElement("text")
             text1b.innerHTML = headline;
             innerDiv1b.appendChild(text1b);
 
-            // create the EDIT button
+            // create the EDIT buttons
             var innerDiv1button = document.createElement("button")
             innerDiv1button.setAttribute('id','ttt')
             innerDiv1button.setAttribute('content', 'test content');
@@ -757,7 +823,8 @@
                                                                 + "'" + img_url + "',"
                                                                 + "'" + event_date + "',"
                                                                 + "'" + description + "',"
-                                                                + "'" + event_url + "',"
+                                                                + "'" + event_url1 + "',"
+                                                                + "'" + event_url2 + "',"
                                                                 + "'" + event_type + "'"
                                                                 + ")");
 
@@ -774,6 +841,8 @@
             } else {
 
             }
+
+
 
             var innerDiv1buttonImg = document.createElement("button");
             innerDiv1buttonImg.setAttribute('id','ttt');
@@ -796,20 +865,72 @@
 
             }
 
+
+
+            var innerDiv1buttonDoc1 = document.createElement("button");
+            innerDiv1buttonDoc1.setAttribute('id','ttt');
+            innerDiv1buttonDoc1.setAttribute('content', 'test content');
+            innerDiv1buttonDoc1.setAttribute('class', 'btn');
+            innerDiv1buttonDoc1.innerHTML = 'document1';
+
+            innerDiv1buttonDoc1.setAttribute('onclick', "OpenForEditDoc1('" + id.toString() + "'"
+                                                                + ")");
+
+
+            if(userid) {
+
+                if((userid.trim()=="none")||(userid.trim()=="undefined")){
+
+                } else {
+                    innerDiv1b_a.appendChild(innerDiv1buttonDoc1);
+                }
+            } else {
+
+            }
+
+
+            var innerDiv1buttonDoc2 = document.createElement("button");
+            innerDiv1buttonDoc2.setAttribute('id','ttt');
+            innerDiv1buttonDoc2.setAttribute('content', 'test content');
+            innerDiv1buttonDoc2.setAttribute('class', 'btn');
+            innerDiv1buttonDoc2.innerHTML = 'document2';
+
+            innerDiv1buttonDoc2.setAttribute('onclick', "OpenForEditDoc2('" + id.toString() + "'"
+                                                                + ")");
+
+
+            if(userid) {
+
+                if((userid.trim()=="none")||(userid.trim()=="undefined")){
+
+                } else {
+                    innerDiv1b_a.appendChild(innerDiv1buttonDoc2);
+                }
+            } else {
+
+            }
+
+
+            // IMAGE
             var innerDiv1c = document.createElement("div")
             innerDiv1c.className="column"
             //var text1c = document.createElement("img")
             var text1c = document.createElement("img")
             text1c.className="img1";
             text1c.src = img_url;
+            text1c.alt = 'no image'
             innerDiv1c.appendChild(text1c)
 
+
+            // EVENT DATE
             var innerDiv1cc = document.createElement("div")
             innerDiv1cc.className="column"
             var text1cc = document.createElement("text")
             text1cc.innerHTML = event_date;
             innerDiv1cc.appendChild(text1cc)
 
+
+            // DESCRIPTION
             var innerDiv1d = document.createElement("div")
             innerDiv1c.className="panel-body";
             var innerDiv1dText = document.createElement("button")
@@ -820,23 +941,25 @@
             innerDiv1d.appendChild(innerDiv1dText)
 
 
+
+            // RESOURCE 1 - HOTLINK
             var innerDiv1e = document.createElement("div")
-            innerDiv1c.className="panel-footer"
+            innerDiv1e.className="panel-footer panelColor"
             var innerDiv1eButton = document.createElement("button")
             innerDiv1eButton.className="btn btn-lg";
             innerDiv1eButton.innerText = "go"
-            innerDiv1eButton.setAttribute('onclick', "location.href = 'http://" + event_url + "';");
+            innerDiv1eButton.setAttribute('onclick', "location.href = 'http://" + event_url1 + "';");
             innerDiv1eButton.setAttribute('target', "_blank");
 
             //innerDiv1e.appendChild(innerDiv1eButton)
 
-            if (event_url) {
+            if (event_url1) {
                 var innerDiv1eAnchor = document.createElement("a")
                 //innerDiv1eAnchor.className="btn btn-lg";
-                innerDiv1eAnchor.innerText = "GO"
-                innerDiv1eAnchor.setAttribute('href', "http://" + event_url + "");
+                innerDiv1eAnchor.innerText = "Resources 1"
+                innerDiv1eAnchor.setAttribute('href', "http://" + event_url1 + "");
                 innerDiv1eAnchor.setAttribute('target', "_blank");
-                if (event_url != '') {
+                if (event_url1 != '') {
                     innerDiv1e.appendChild(innerDiv1eAnchor);
                 } else {
                     innerDiv1eAnchor.setAttribute('style:display', "none");
@@ -844,14 +967,80 @@
             }
 
 
+            // RESOURCE 2 - HOTLINK
+            var innerDiv1f = document.createElement("div")
+            innerDiv1f.className="panel-footer panelColor"
+            if (event_url2) {
+                var innerDiv1fAnchor = document.createElement("a")
+                //innerDiv1eAnchor.className="btn btn-lg";
+                innerDiv1fAnchor.innerText = "Resources 2"
+                innerDiv1fAnchor.setAttribute('href', "http://" + event_url2 + "");
+                innerDiv1fAnchor.setAttribute('target', "_blank");
+                if (event_url2 != '') {
+                    innerDiv1f.appendChild(innerDiv1fAnchor);
+                } else {
+                    innerDiv1fAnchor.setAttribute('style:display', "none");
+                }
+            }
+
+
+            // DOCUMENT 1 - HOTLINK
+            var innerDiv1g = document.createElement("div")
+            innerDiv1g.className="panel-footer panelColor"
+
+            if (doc_url1) {
+                var innerDiv1gAnchor = document.createElement("a")
+                //innerDiv1eAnchor.className="btn btn-lg";
+                innerDiv1gAnchor.innerText = "Download Document"
+                // innerDiv1fAnchor.setAttribute('href', "http://" + doc_url1 + "");
+                innerDiv1gAnchor.setAttribute('href', doc_url1);
+                innerDiv1gAnchor.setAttribute('target', "_blank");
+                if (doc_url1 != '') {
+                    innerDiv1g.appendChild(innerDiv1gAnchor);
+                } else {
+                    innerDiv1gAnchor.setAttribute('style:display', "none");
+                }
+            }
+
+
+            // DOCUMENT 2 - HOTLINK
+            var innerDiv1h = document.createElement("div")
+            innerDiv1h.className="panel-footer panelColor"
+
+            if (doc_url2) {
+                var innerDiv1hAnchor = document.createElement("a")
+                //innerDiv1eAnchor.className="btn btn-lg";
+                innerDiv1hAnchor.innerText = "Download Document"
+                // innerDiv1fAnchor.setAttribute('href', "http://" + doc_url1 + "");
+                innerDiv1hAnchor.setAttribute('href', doc_url2);
+                innerDiv1hAnchor.setAttribute('target', "_blank");
+                if (doc_url2 != '') {
+                    innerDiv1h.appendChild(innerDiv1hAnchor);
+                } else {
+                    innerDiv1hAnchor.setAttribute('style:display', "none");
+                }
+            }
+
             div1.appendChild(innerDiv1)
             innerDiv1.appendChild(innerDiv1a)
             innerDiv1a.appendChild(innerDiv1b_a)
-            innerDiv1a.appendChild(innerDiv1b)
+            innerDiv1a.appendChild(innerDiv1b)  // HEADLINE
+            innerDiv1a.appendChild(innerDiv1d) // DESCRIPTION
             innerDiv1a.appendChild(innerDiv1c)
             innerDiv1a.appendChild(innerDiv1cc)
-            innerDiv1a.appendChild(innerDiv1d)
-            innerDiv1a.appendChild(innerDiv1e)
+//            innerDiv1a.appendChild(innerDiv1d) // DESCRIPTION
+            if (event_url1) {
+                innerDiv1a.appendChild(innerDiv1e)  // RESOURCE 1 - HOTLINK
+            }
+            if (event_url2) {
+                innerDiv1a.appendChild(innerDiv1f)  // RESOURCE 2 - HOTLINK
+            }
+            if (doc_url1) {
+                innerDiv1a.appendChild(innerDiv1g)  // DOCUMENT 1 - HOTLINK
+            }
+            if (doc_url2) {
+                innerDiv1a.appendChild(innerDiv1h)  // DOCUMENT 2 - HOTLINK
+            }
 
         }
     </script>

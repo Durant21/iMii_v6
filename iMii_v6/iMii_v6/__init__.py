@@ -56,6 +56,8 @@ def main(global_config, **settings):
         config.add_route( 'store_img3_view', '/store_img3_view' )
         config.add_route( 'store_doc1_view', '/store_doc1_view' )
         config.add_route( 'store_people_doc2_view', '/store_people_doc2_view' )
+        config.add_route('store_events_doc1_view', '/store_events_doc1_view')
+        config.add_route('store_events_doc2_view', '/store_events_doc2_view')
 
         config.add_route( 'autos_api', '/api/autos' )
         config.add_route( 'auto_api', '/api/auto/{car_id}' )
