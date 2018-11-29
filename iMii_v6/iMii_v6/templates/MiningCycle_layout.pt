@@ -132,7 +132,7 @@ div.column2 {
                 <div class="col-sm-1" style="background-color:white; color:green; height:500px; align-content: center"></div>
             </div>
     </div>
-    <div class="col-sm-6 text-left">
+    <div class="col-sm-6 text-left" style="font-size: 20px;">
       <h1>MINING CYCLE</h1>
       <p>
           The Mining Cycle Diagram is central to the Girls In The Classroom project

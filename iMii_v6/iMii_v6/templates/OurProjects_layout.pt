@@ -195,7 +195,7 @@
               <!--?<p><a href="#">Link</a></p>-->
               <!--?<p><a href="#">Link</a></p>-->
             </div>
-            <div class="col-sm-8 text-left">
+            <div class="col-sm-8 text-left" style="font-size: 20px;">
                   <h1>OUR PROJECTS</h1>
                   <p>
                       The <i>Girls In The Classroom – Unearthing Career Opportunities in Mining</i> project is proud to present the following events created with various classrooms and women from the mining and minerals industry.  A huge thank-you to the teachers, schools, students, women volunteers and their organizations for making these inspiring projects possible.  We hope that the following examples inspire others to get involved with our project or to complete their own mining and minerals STEM outreach activity, aimed at increasing the number of women employed in the mining sector!
@@ -361,10 +361,8 @@
 
 
 
-                    <br><br><br><br><br><br><br><br><br><br><br><br>
-                    <br><br><br><br><br><br><br><br><br><br><br>
-                    <br><br><br><br><br><br><br><br><br><br>
-                    <br><br><br><br><br><br><br><br><br><br><br>
+                    <br><br><br><br><br><br><br>
+
 
                     <!--?<div class="col-sm-2 sidenav">-->
                     <!--?</div>-->

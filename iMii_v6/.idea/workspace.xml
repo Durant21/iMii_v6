@@ -10,7 +10,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/iMii_v6$iMii_v6.coverage" NAME="iMii_v6 Coverage Results" MODIFIED="1543453005166" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/iMii_v6$iMii_v6.coverage" NAME="iMii_v6 Coverage Results" MODIFIED="1543532466263" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -50,121 +50,49 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="WomenInMining_layout.pt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/iMii_v6/templates/WomenInMining_layout.pt">
+      <file leaf-file-name="MiningCycle_layout.pt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/iMii_v6/templates/MiningCycle_layout.pt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="10545">
-              <caret line="742" column="34" lean-forward="false" selection-start-line="742" selection-start-column="30" selection-end-line="742" selection-end-column="34" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="home_page.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/iMii_v6/views/home_page.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="376" column="28" lean-forward="true" selection-start-line="376" selection-start-column="28" selection-end-line="376" selection-end-column="28" />
+            <state relative-caret-position="150">
+              <caret line="134" column="59" lean-forward="false" selection-start-line="134" selection-start-column="59" selection-end-line="134" selection-end-column="59" />
               <folding>
-                <element signature="e#0#36#0" expanded="true" />
-                <element signature="e#662#688#0" expanded="false" />
-                <element signature="e#803#836#0" expanded="false" />
-                <element signature="e#961#999#0" expanded="false" />
-                <element signature="e#1114#1147#0" expanded="false" />
-                <element signature="e#1265#1300#0" expanded="false" />
-                <element signature="e#1408#1438#0" expanded="false" />
-                <element signature="e#1538#1564#0" expanded="false" />
-                <element signature="e#1668#1696#0" expanded="false" />
-                <element signature="e#1806#1837#0" expanded="false" />
-                <element signature="e#1937#1963#0" expanded="false" />
-                <element signature="e#2069#2098#0" expanded="false" />
-                <element signature="e#2201#2228#0" expanded="false" />
-                <element signature="e#2230#2317#0" expanded="false" />
-                <element signature="e#3798#3846#0" expanded="false" />
-                <element signature="e#3967#4003#0" expanded="false" />
-                <element signature="e#4114#4145#0" expanded="false" />
-                <element signature="e#4272#4311#0" expanded="false" />
-                <element signature="e#4438#4477#0" expanded="false" />
-                <element signature="e#4708#4765#0" expanded="false" />
-                <element signature="e#4817#7646#0" expanded="false" />
-                <element signature="e#4967#5029#0" expanded="false" />
-                <element signature="e#5280#5344#0" expanded="false" />
-                <element signature="e#5471#5537#0" expanded="false" />
-                <element signature="e#5962#6003#0" expanded="false" />
-                <element signature="e#6418#6487#0" expanded="false" />
-                <element signature="e#7213#7259#0" expanded="false" />
-                <element signature="e#7801#7863#0" expanded="false" />
-                <element signature="e#7915#12489#0" expanded="false" />
-                <element signature="e#7928#8026#0" expanded="false" />
-                <element signature="e#8349#8413#0" expanded="false" />
-                <element signature="e#8540#8606#0" expanded="false" />
-                <element signature="e#9033#9074#0" expanded="false" />
-                <element signature="e#9175#9235#0" expanded="false" />
-                <element signature="e#9487#9556#0" expanded="false" />
-                <element signature="e#10360#10460#0" expanded="false" />
-                <element signature="e#12489#12490#0" expanded="false" />
-                <element signature="e#13477#16538#0" expanded="false" />
-                <element signature="e#13627#13689#0" expanded="false" />
-                <element signature="e#13940#14004#0" expanded="false" />
-                <element signature="e#14132#14198#0" expanded="false" />
-                <element signature="e#14623#14664#0" expanded="false" />
-                <element signature="e#15307#15376#0" expanded="false" />
-                <element signature="e#16102#16148#0" expanded="false" />
-                <element signature="e#16828#19903#0" expanded="false" />
-                <element signature="e#16985#17047#0" expanded="false" />
-                <element signature="e#17298#17362#0" expanded="false" />
-                <element signature="e#17490#17556#0" expanded="false" />
-                <element signature="e#17981#18022#0" expanded="false" />
-                <element signature="e#18665#18734#0" expanded="false" />
-                <element signature="e#19460#19506#0" expanded="false" />
-                <element signature="e#20196#23270#0" expanded="false" />
-                <element signature="e#20353#20415#0" expanded="false" />
-                <element signature="e#20666#20730#0" expanded="false" />
-                <element signature="e#20858#20924#0" expanded="false" />
-                <element signature="e#21349#21390#0" expanded="false" />
-                <element signature="e#22033#22102#0" expanded="false" />
-                <element signature="e#22828#22874#0" expanded="false" />
-                <element signature="e#23563#26635#0" expanded="false" />
-                <element signature="e#23720#23782#0" expanded="false" />
-                <element signature="e#24033#24097#0" expanded="false" />
-                <element signature="e#24225#24291#0" expanded="false" />
-                <element signature="e#24716#24757#0" expanded="false" />
-                <element signature="e#25400#25469#0" expanded="false" />
-                <element signature="e#26195#26241#0" expanded="false" />
-                <element signature="e#26792#26856#0" expanded="false" />
-                <element signature="e#26908#29737#0" expanded="false" />
-                <element signature="e#27058#27120#0" expanded="false" />
-                <element signature="e#27371#27435#0" expanded="false" />
-                <element signature="e#27562#27628#0" expanded="false" />
-                <element signature="e#28053#28094#0" expanded="false" />
-                <element signature="e#28509#28578#0" expanded="false" />
-                <element signature="e#29304#29350#0" expanded="false" />
-                <marker date="1543518795000" expanded="false" signature="7437:7476" ph="UPDATE Peopl... " />
-                <marker date="1543518795000" expanded="false" signature="10243:10282" ph="UPDATE Event... " />
-                <marker date="1543518795000" expanded="false" signature="16326:16365" ph="UPDATE Peopl... " />
-                <marker date="1543518795000" expanded="true" signature="19684:19723" ph="UPDATE Peopl... " />
-                <marker date="1543518795000" expanded="true" signature="23052:23091" ph="UPDATE Event... " />
-                <marker date="1543518795000" expanded="true" signature="26419:26458" ph="UPDATE Event... " />
-                <marker date="1543518795000" expanded="false" signature="29528:29567" ph="UPDATE Peopl... " />
+                <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="OurProjects_layout.pt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/iMii_v6/templates/OurProjects_layout.pt">
+      <file leaf-file-name="Discover_layout.pt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/iMii_v6/templates/Discover_layout.pt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="217">
-              <caret line="494" column="43" lean-forward="true" selection-start-line="494" selection-start-column="43" selection-end-line="494" selection-end-column="64" />
+            <state relative-caret-position="260">
+              <caret line="88" column="135" lean-forward="false" selection-start-line="88" selection-start-column="135" selection-end-line="88" selection-end-column="135" />
               <folding>
-                <element signature="n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#1;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#2;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#0;n#div#3;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="e#22312#22531#0#HTML" expanded="false" />
-                <element signature="e#22571#22835#0#HTML" expanded="false" />
-                <element signature="e#22875#23139#0#HTML" expanded="false" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Plan_layout.pt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/iMii_v6/templates/Plan_layout.pt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="116">
+              <caret line="99" column="59" lean-forward="false" selection-start-line="99" selection-start-column="59" selection-end-line="99" selection-end-column="59" />
+              <folding>
+                <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Mine_layout.pt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/iMii_v6/templates/Mine_layout.pt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="140">
+              <caret line="98" column="59" lean-forward="false" selection-start-line="98" selection-start-column="59" selection-end-line="98" selection-end-column="59" />
+              <folding>
+                <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -173,54 +101,19 @@
       <file leaf-file-name="About_layout.pt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/iMii_v6/templates/About_layout.pt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="80" column="27" lean-forward="false" selection-start-line="80" selection-start-column="27" selection-end-line="80" selection-end-column="27" />
+            <state relative-caret-position="456">
+              <caret line="246" column="38" lean-forward="false" selection-start-line="246" selection-start-column="38" selection-end-line="246" selection-end-column="38" />
               <folding>
+                <element signature="n#style#0;n#div#2;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#div#0;n#div#4;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#2;n#div#7;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#2;n#div#9;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#2;n#div#11;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#13;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#img#0;n#a#0;n#div#13;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#div#2;n#div#2;n#div#0;n#div#20;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Authentication_layout.pt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/iMii_v6/templates/Authentication_layout.pt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="78" column="38" lean-forward="true" selection-start-line="78" selection-start-column="38" selection-end-line="78" selection-end-column="38" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="iMiiMasterHeader1_layout.pt" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/iMii_v6/templates/iMiiMasterHeader1_layout.pt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="25" lean-forward="true" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="about_author.pt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/iMii_v6/templates/about_author.pt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="splash_layout.pt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/iMii_v6/templates/splash_layout.pt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="32" column="7" lean-forward="true" selection-start-line="32" selection-start-column="7" selection-end-line="32" selection-end-column="7" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -228,19 +121,59 @@
       <file leaf-file-name="Reclaim_layout.pt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/iMii_v6/templates/Reclaim_layout.pt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="363">
-              <caret line="111" column="44" lean-forward="false" selection-start-line="111" selection-start-column="44" selection-end-line="111" selection-end-column="44" />
-              <folding />
+            <state relative-caret-position="1143">
+              <caret line="107" column="71" lean-forward="false" selection-start-line="107" selection-start-column="71" selection-end-line="107" selection-end-column="71" />
+              <folding>
+                <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="console.sql" pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/bbb479f5-0c5b-4d87-a620-19196a7caae9/console.sql">
+      <file leaf-file-name="WomenInMining_layout.pt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/iMii_v6/templates/WomenInMining_layout.pt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="20" />
-              <folding />
+            <state relative-caret-position="245">
+              <caret line="264" column="34" lean-forward="true" selection-start-line="264" selection-start-column="34" selection-end-line="264" selection-end-column="34" />
+              <folding>
+                <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OurProjects_layout.pt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/iMii_v6/templates/OurProjects_layout.pt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="339">
+              <caret line="354" column="28" lean-forward="true" selection-start-line="354" selection-start-column="28" selection-end-line="354" selection-end-column="28" />
+              <folding>
+                <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TeacherResources_layout.pt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/iMii_v6/templates/TeacherResources_layout.pt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="138">
+              <caret line="107" column="59" lean-forward="false" selection-start-line="107" selection-start-column="59" selection-end-line="107" selection-end-column="59" />
+              <folding>
+                <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/iMii_v6/__init__.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="885">
+              <caret line="59" column="70" lean-forward="false" selection-start-line="59" selection-start-column="70" selection-end-line="59" selection-end-column="70" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -249,8 +182,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>OpenForEdit</find>
-      <find>url</find>
       <find>img_url</find>
       <find>image</find>
       <find>document1</find>
@@ -279,6 +210,8 @@
       <find>.body</find>
       <find>text-left</find>
       <find>sticky</find>
+      <find>&lt;br</find>
+      <find>gather</find>
     </findStrings>
   </component>
   <component name="IdeDocumentHistory">
@@ -308,12 +241,7 @@
         <option value="$PROJECT_DIR$/production.ini" />
         <option value="$PROJECT_DIR$/iMii_v6/static/scripts/common3.js" />
         <option value="$PROJECT_DIR$/iMii_v6/templates/iMii_layout.pt" />
-        <option value="$PROJECT_DIR$/iMii_v6/templates/TeacherResources_layout.pt" />
-        <option value="$PROJECT_DIR$/iMii_v6/templates/Plan_layout.pt" />
-        <option value="$PROJECT_DIR$/iMii_v6/templates/Mine_layout.pt" />
-        <option value="$PROJECT_DIR$/iMii_v6/templates/Reclaim_layout.pt" />
         <option value="$PROJECT_DIR$/iMii_v6/api/iMii_api.py" />
-        <option value="$PROJECT_DIR$/iMii_v6/templates/Discover_layout.pt" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/ca831785-e87b-4639-a612-fcb1860b52c6/console.sql" />
         <option value="$PROJECT_DIR$/iMii_v6/data/Event.py" />
         <option value="$PROJECT_DIR$/iMii_v6/data/repository_events.py" />
@@ -325,12 +253,18 @@
         <option value="$PROJECT_DIR$/iMii_v6/data/repository_people.py" />
         <option value="$PROJECT_DIR$/iMii_v6/__init__.py" />
         <option value="$PROJECT_DIR$/iMii_v6/views/home_page.py" />
-        <option value="$PROJECT_DIR$/iMii_v6/templates/WomenInMining_layout.pt" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/bbb479f5-0c5b-4d87-a620-19196a7caae9/console.sql" />
-        <option value="$PROJECT_DIR$/iMii_v6/templates/OurProjects_layout.pt" />
         <option value="$PROJECT_DIR$/iMii_v6/templates/Authentication_layout.pt" />
-        <option value="$PROJECT_DIR$/iMii_v6/templates/About_layout.pt" />
         <option value="$PROJECT_DIR$/iMii_v6/templates/iMiiMasterHeader1_layout.pt" />
+        <option value="$PROJECT_DIR$/iMii_v6/templates/MiningCycle_layout.pt" />
+        <option value="$PROJECT_DIR$/iMii_v6/templates/Plan_layout.pt" />
+        <option value="$PROJECT_DIR$/iMii_v6/templates/Mine_layout.pt" />
+        <option value="$PROJECT_DIR$/iMii_v6/templates/Reclaim_layout.pt" />
+        <option value="$PROJECT_DIR$/iMii_v6/templates/WomenInMining_layout.pt" />
+        <option value="$PROJECT_DIR$/iMii_v6/templates/TeacherResources_layout.pt" />
+        <option value="$PROJECT_DIR$/iMii_v6/templates/OurProjects_layout.pt" />
+        <option value="$PROJECT_DIR$/iMii_v6/templates/About_layout.pt" />
+        <option value="$PROJECT_DIR$/iMii_v6/templates/Discover_layout.pt" />
       </list>
     </option>
   </component>
@@ -437,6 +371,28 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="iMii_v6" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="iMii_v6" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="iMii_v6" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="graphics" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -828,14 +784,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.503231" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29726028" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32876712" sideWeight="0.49676898" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.49676898" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.49676898" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.315832" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2714055" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -975,13 +931,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/iMii_v6/templates/TeacherResources_layout.pt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="117" column="6" lean-forward="false" selection-start-line="117" selection-start-column="11" selection-end-line="117" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/iMii_v6/templates/common2.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -997,42 +946,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/iMii_v6/templates/MiningCycle_layout.pt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="4" lean-forward="false" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/iMii_v6/templates/Plan.pt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/iMii_v6/templates/Mine_layout.pt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1785">
-          <caret line="119" column="24" lean-forward="false" selection-start-line="119" selection-start-column="24" selection-end-line="119" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/iMii_v6/templates/Plan_layout.pt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="119" column="24" lean-forward="false" selection-start-line="119" selection-start-column="24" selection-end-line="119" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/iMii_v6/templates/Discover_layout.pt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="120" column="224" lean-forward="false" selection-start-line="120" selection-start-column="224" selection-end-line="120" selection-end-column="224" />
           <folding />
         </state>
       </provider>
@@ -1272,16 +1189,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/iMii_v6/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="59" column="70" lean-forward="false" selection-start-line="59" selection-start-column="70" selection-end-line="59" selection-end-column="70" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/iMii_v6/routes.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1395,39 +1302,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/iMii_v6/templates/WomenInMining_layout.pt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="10545">
-          <caret line="742" column="34" lean-forward="false" selection-start-line="742" selection-start-column="30" selection-end-line="742" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/iMii_v6/templates/Reclaim_layout.pt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="111" column="44" lean-forward="false" selection-start-line="111" selection-start-column="44" selection-end-line="111" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/iMii_v6/templates/OurProjects_layout.pt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="494" column="43" lean-forward="true" selection-start-line="494" selection-start-column="43" selection-end-line="494" selection-end-column="64" />
-          <folding>
-            <element signature="n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#3;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="e#22312#22531#0#HTML" expanded="false" />
-            <element signature="e#22571#22835#0#HTML" expanded="false" />
-            <element signature="e#22875#23139#0#HTML" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/iMii_v6/templates/splash_layout.pt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
@@ -1452,24 +1326,119 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/iMii_v6/templates/About_layout.pt">
+    <entry file="file://$PROJECT_DIR$/iMii_v6/templates/iMiiMasterHeader1_layout.pt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="80" column="27" lean-forward="false" selection-start-line="80" selection-start-column="27" selection-end-line="80" selection-end-column="27" />
+        <state relative-caret-position="210">
+          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iMii_v6/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="885">
+          <caret line="59" column="70" lean-forward="false" selection-start-line="59" selection-start-column="70" selection-end-line="59" selection-end-column="70" />
           <folding>
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#4;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#7;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#13;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#div#13;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#0#39#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/iMii_v6/templates/iMiiMasterHeader1_layout.pt">
+    <entry file="file://$PROJECT_DIR$/iMii_v6/templates/MiningCycle_layout.pt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
-          <caret line="10" column="25" lean-forward="true" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
-          <folding />
+          <caret line="134" column="59" lean-forward="false" selection-start-line="134" selection-start-column="59" selection-end-line="134" selection-end-column="59" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iMii_v6/templates/Plan_layout.pt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="99" column="59" lean-forward="false" selection-start-line="99" selection-start-column="59" selection-end-line="99" selection-end-column="59" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iMii_v6/templates/Mine_layout.pt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="98" column="59" lean-forward="false" selection-start-line="98" selection-start-column="59" selection-end-line="98" selection-end-column="59" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iMii_v6/templates/Reclaim_layout.pt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1143">
+          <caret line="107" column="71" lean-forward="false" selection-start-line="107" selection-start-column="71" selection-end-line="107" selection-end-column="71" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iMii_v6/templates/WomenInMining_layout.pt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="264" column="34" lean-forward="true" selection-start-line="264" selection-start-column="34" selection-end-line="264" selection-end-column="34" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iMii_v6/templates/TeacherResources_layout.pt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="107" column="59" lean-forward="false" selection-start-line="107" selection-start-column="59" selection-end-line="107" selection-end-column="59" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iMii_v6/templates/OurProjects_layout.pt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="339">
+          <caret line="354" column="28" lean-forward="true" selection-start-line="354" selection-start-column="28" selection-end-line="354" selection-end-column="28" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iMii_v6/templates/About_layout.pt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="246" column="38" lean-forward="false" selection-start-line="246" selection-start-column="38" selection-end-line="246" selection-end-column="38" />
+          <folding>
+            <element signature="n#style#0;n#div#2;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#4;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#7;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#9;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#11;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#13;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#13;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#2;n#div#2;n#div#0;n#div#20;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iMii_v6/templates/Discover_layout.pt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="88" column="135" lean-forward="false" selection-start-line="88" selection-start-column="135" selection-end-line="88" selection-end-column="135" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

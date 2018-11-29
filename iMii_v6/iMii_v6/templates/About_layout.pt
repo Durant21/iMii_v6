@@ -92,7 +92,7 @@
         <!--?<p>crest</p>-->
         <img src="/graphics/Girls_in_the_Classroom_Crest.png" alt="Picture Description" usemap="#planetmap" style="width: 230px; height: 250px; left:300px">
     </div>
-        <div class="col-sm-12" style="background-color:white;height: 40px;font-size:    25px; color: white;">
+        <div class="col-sm-12" style="background-color:white;height: 80px;font-size:    25px; color: white;">
 
         </div>
       <div class="col-sm-12  text-left" style="background-color:gray;height: 40px;font-size: 25px; color: rgb(98,69,99);">
@@ -108,16 +108,18 @@
             <div class="col-sm-3" style="background-color:white; height: 200px;">
                 <img src="/graphics/diamond.png" alt="Picture Description" usemap="#planetmap" style="width: 160px; height: 150px; left:400px">
             </div>
-            <div class="col-sm-9  text-left" style="font-size: 20px; padding-right: 75px; background-color:white; height: 200px;">
+            <div class="col-sm-9  text-left" style="font-size: 20px; padding-right: 75px; background-color:white; height:400px;">
                 This <strong>educational outreach pilot project</strong> engages with elementary and high school girls and young
                 women to educate, debunk stereotypes and raise awareness around STEM-related career opportunities in the mining
                 and mineral industry for women.  With the support of innovative approaches and tools, the project connects
                 classrooms with the diverse female mining and minerals workforce as applied examples of the learning outcomes
                 in the public school curriculum.  The ultimate ambition is to feed this key underrepresented group of the mining
                 sector talent pipeline through inspirational interactions.
+
                 </div>
           </div>
     </div>
+      <br><br><br><br><br><br>
       <div class="col-sm-12  text-left" style="padding-left: 75px; background-color:white;height: 40px;font-size: 25px; color: rgb(98,69,99);">
         <p>ADDITIONAL INFORMATION</p>
     </div>
@@ -148,9 +150,9 @@
             <img src="/graphics/mindboard.png" alt="Picture Description" usemap="#planetmap" style="width: 190px; height: 200px; left:300px">
         </div>
         <div class="col-sm-9 text-left" style="background-color:white; height: 50px; color:rgb(98,69,99)">
-               <H4>Gathering Top Talent</H4>
+               <H3>Gathering Top Talent</H3>
         </div>
-          <div class="col-sm-9 text-left" style="padding-right: 75px; background-color:white; height: 50px;">
+          <div class="col-sm-9 text-left" style="font-size: 20px; padding-right: 75px; background-color:white; height: 70px;">
               <strong>Women that embody the essence of being a role model</strong> will be selected by the project
               team to participate as mining industry representatives.  See the “Women in Mining” tab for profiles
               of the fantastic women we have included so far.  She will share her education, experiences
@@ -168,9 +170,9 @@
 
         </div>
         <div class="col-sm-9 text-left" style="background-color:white; height: 50px; color:rgb(98,69,99)">
-               <H4>Exploring the Industry</H4>
+               <H3>Exploring the Industry</H3>
         </div>
-          <div class="col-sm-9 text-left" style="padding-right: 75px; background-color:white; height: 50px;">
+          <div class="col-sm-9 text-left" style="font-size: 20px;padding-right: 75px; background-color:white; height: 50px;">
                 Girls who are interested in more intently exploring the various careers presented can enter an essay competition to win a sponsorship package to a mining-relate educational camp of her choosing within the Saskatoon area or a one-day job shadow opportunity with the industry representatives and her company.  One girl from each pilot project classroom will be selected.  Check out what we’ve done so far under the “Our Projects” tab.
         </div>
     </div>
@@ -239,9 +241,12 @@
                 <div class="col-sm-12" style="background-color:white;height: 100px;font-size: 15px; color: black;">
                     <img src="/graphics/UofSask.png" alt="Picture Description" usemap="#planetmap" style=" height: 75px; left:400px">
                 </div>
-                <div class="col-sm-12" style="background-color:white;height: 100px;font-size: 15px; color: black;">
+                <div class="col-sm-4" style="background-color:white;height: 100px;font-size: 15px; color: black;">
                     <img src="/graphics/Brevoort.png" alt="Picture Description" usemap="#planetmap" style=" height: 100px; left:400px">
                 </div>
+                  <div class="col-sm-8" style="background-color:white;height: 100px;font-size: 15px; color: black;">
+                    <img src="/graphics/BP_Written.jpg" alt="Picture Description" usemap="#planetmap" style=" height: 80px; left:400px">
+                  </div>
             </div>
           </div>
     </div>
