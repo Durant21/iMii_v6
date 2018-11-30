@@ -543,7 +543,7 @@
                     error: function (err) {
                         //$.unblockUI();
                         //SetNotBusy();
-                        alert("Error displaying images: " + err.status + "    " + err.statusText);
+                        //alert("Error displaying images: " + err.status + "    " + err.statusText);
                     }
                 });
             }
