@@ -2,7 +2,7 @@
 
 .fa {
   padding: 20px;
-  font-size: 30px;
+  font-size: 30px;  /* controls size of bird */
   width: 50px;
   text-align: center;
   text-decoration: none;
@@ -23,6 +23,7 @@
   /*background: #55ACEE;*/
     background: rgb(34,34,34);/*lightgray;*/
   color: #55ACEE;
+  size: 300px;
 }
 
 .fa-google {
