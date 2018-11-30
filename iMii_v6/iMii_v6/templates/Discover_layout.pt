@@ -86,7 +86,7 @@
       <div class="row">
                 <div class="col-sm-1" style="background-color:white; color:green; height:500px; align-content: center"></div>
                 <div class="col-sm-10" style="background-color:white; color:green; height:500px; align-content: center">
-                    <img src="/graphics/Discover_Blur.png" alt="Picture Description" usemap="#planetmap" style="width: 600px; height: 600px; left:300px">
+                    <img src="/graphics/Discover_Blur.png" alt="Picture Description" usemap="#planetmap" style="width: 500px; height: 500px; left:300px">
                     <map name="planetmap">
                         <!--?<area shape="circle" coords="<top left><bottom right>" alt="Mercury" href="https://www.google.com">-->
                         <area shape="rect" id="aDiscover" style="color:green" coords="150,0,350,150" href="Discover">

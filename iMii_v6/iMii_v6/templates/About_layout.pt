@@ -102,7 +102,7 @@
             </div>
         </div>
     </div>
-      <div class="col-sm-12" style="background-color:gray;height: 200px;">
+      <div class="col-sm-12" style="background-color:white;height: 250px;">
 
           <div class="row">
             <div class="col-sm-3" style="background-color:white; height: 200px;">
@@ -124,7 +124,7 @@
         <p>ADDITIONAL INFORMATION</p>
     </div>
 
-        <div class="col-sm-12" style="background-color:white;height: 40px;font-size: 25px; color: white;">
+        <div class="col-sm-12" style="background-color:white;height: 10px;font-size: 25px; color: white;">
 
         </div>
     <!--?<p>handshake</p>-->
@@ -136,7 +136,7 @@
 
             <H3>Creating a Closer Community</H3>
         </div>
-          <div class="col-sm-9  text-left" style="font-size: 20px; padding-right: 75px; background-color:white; height: 150px;">
+          <div class="col-sm-9  text-left" style="font-size: 20px; padding-right: 75px; background-color:white; height: 220px;">
               The pilot project <strong>engages</strong> with <strong>a diverse cross-section of classrooms</strong> in Saskatoon, including academically gifted, inner city, community and Indigenous schools across grades 4 to 12.  Just as the classrooms are diverse, the industry women that classrooms will be uniquely connected to will represent wide-ranging careers in the Saskatchewan mining sector, with a focus on in-demand careers identified in the Saskatchewan Mining Industry Hiring Requirements and Available Talent Forecast.
         </div>
     </div>
@@ -152,11 +152,15 @@
         <div class="col-sm-9 text-left" style="background-color:white; height: 50px; color:rgb(98,69,99)">
                <H3>Gathering Top Talent</H3>
         </div>
-          <div class="col-sm-9 text-left" style="font-size: 20px; padding-right: 75px; background-color:white; height: 70px;">
+          <div class="col-sm-9 text-left" style="font-size: 20px; padding-right: 75px; background-color:white; height: 290px;">
               <strong>Women that embody the essence of being a role model</strong> will be selected by the project
               team to participate as mining industry representatives.  See the “Women in Mining” tab for profiles
               of the fantastic women we have included so far.  She will share her education, experiences
-              (both positive and the hurdles she had to overcome), contributions and leadership in her company and community.  The representative and her lesson plan materials and activities will link to outcomes and indicators of the school curriculum, as created with the teacher and the Girls In The Classroom team.  The proposal team will make teacher-representative pairs that represent each of the 4 Mining Cycle stages (see the “Mining Cycle” tab).  Lesson plans and other materials created will be made available on the site as downloadable PDF’s and under the “Teacher Resources” tab.
+              (both positive and the hurdles she had to overcome), contributions and leadership in her company and community.
+              The representative and her lesson plan materials and activities will link to outcomes and indicators of the school
+              curriculum, as created with the teacher and the Girls In The Classroom team.  The proposal team will make
+              teacher-representative pairs that represent each of the 4 Mining Cycle stages (see the “Mining Cycle” tab).
+              Lesson plans and other materials created will be made available on the site as downloadable PDF’s and under the“Teacher Resources” tab.
         </div>
     </div>
         <div class="col-sm-12" style="background-color:white;height: 40px;font-size: 25px; color: white;">
@@ -172,10 +176,13 @@
         <div class="col-sm-9 text-left" style="background-color:white; height: 50px; color:rgb(98,69,99)">
                <H3>Exploring the Industry</H3>
         </div>
-          <div class="col-sm-9 text-left" style="font-size: 20px;padding-right: 75px; background-color:white; height: 50px;">
+          <div class="col-sm-9 text-left" style="font-size: 20px;padding-right: 75px; background-color:white; height: 150px;">
                 Girls who are interested in more intently exploring the various careers presented can enter an essay competition to win a sponsorship package to a mining-relate educational camp of her choosing within the Saskatoon area or a one-day job shadow opportunity with the industry representatives and her company.  One girl from each pilot project classroom will be selected.  Check out what we’ve done so far under the “Our Projects” tab.
         </div>
     </div>
+        <div class="col-sm-12" style="background-color:white;height: 40px;font-size: 25px; color: white;">
+
+        </div>
       <div class="col-sm-12  text-left" style="padding-left: 75px; background-color:white;height: 40px;font-size: 25px; color: rgb(98,69,99);">
         <p>JOIN THE GITC MOVEMENT</p>
     </div>
@@ -203,7 +210,7 @@
         <div class="col-sm-3 text-right" style="background-color:white;height: 80px;font-size: 25px; color: white; align-content: left;">
             <img src="/graphics/iMii.jpg" alt="Picture Description" usemap="#planetmap" style=" height: 50px;" >
         </div>
-        <div class="col-sm-9  text-left" style="background-color:white;height: 40px;font-size: 15px; color: black; align-content: left;">
+        <div class="col-sm-9  text-left" style="background-color:white;height: 40px;font-size: 20px; color: black; align-content: left;">
             <p>International Minerals Innovation Institute - Diversity and Inclusion Challenge funding partner</p>
         </div>
     </div>
@@ -219,22 +226,23 @@
             <div class="col-sm-3" style="background-color:white; height: 200px;">
                 <img src="/graphics/respec.png" alt="Picture Description" usemap="#planetmap" style=" height: 200px; left:400px">
             </div>
-            <div class="col-sm-5  text-left" style="background-color:white; height: 200px;">
-                <div class="col-sm-12" style="background-color:white;height: 70px;font-size: 15px; color: black;">
+            <div class="col-sm-5  text-left" style="font-size:    20px; background-color:white; height: 100px;">
+                <div class="col-sm-12" style="background-color:white;height: 120px;font-size: 20px; color: black;">
                   <br>
                     <strong> RESPEC</strong><br>
                     Deb Shewfelt, Senior Geoscientist and Project Manager<br><br>
                 </div>
-                <div class="col-sm-12" style="background-color:white;height: 50px;font-size: 15px; color: black;">
+                <div class="col-sm-12" style="background-color:white;height: 70px;font-size: 20px; color: black;">
                     <strong>Brevoort Park School</strong><br>
                     Nancy Barr, Teacher and Project Team Member<br><br>
 
                 </div>
-                <div class="col-sm-12" style="background-color:white;height: 40px;font-size: 15px; color: black;">
+                <div class="col-sm-12" style="background-color:white;height: 40px;font-size: 20px; color: black;">
                     <strong>University of Saskatchewan College of Arts and Science</strong><br>
                     Lana Elias, Director of Science Outreach and <br>
                     Victoria Harms, Science Outreach Coordinator;<br>
-                    Project Team Members<br><br>
+                    Project Team Members
+                    <br><br><br><br><br><br><br><br>
                 </div>
             </div>
               <div class="col-sm-4  text-left" style="background-color:white; height: 200px;">
@@ -248,6 +256,7 @@
                     <img src="/graphics/BP_Written.jpg" alt="Picture Description" usemap="#planetmap" style=" height: 80px; left:400px">
                   </div>
             </div>
+              <br><br><br><br>
           </div>
     </div>
 
@@ -270,7 +279,7 @@
   </div>
 </div>
 
-<br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 <div id="includedFooter"></div>
 
     <script>
