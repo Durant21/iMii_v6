@@ -11,7 +11,10 @@
         font-size : 20px;
         white-space: normal;
         word-wrap: break-word;
+
+        color: yellow;
     }
+
 
     .button {
         background-color: rgb(34,34,34);
@@ -25,6 +28,10 @@
         margin: 4px 2px;
         cursor: pointer;
         font-family: Verdana, Geneva, sans-serif;
+
+        /* below gets rid of blue outline on-click event */
+        outline: none !important;
+        box-shadow: none !important;
     }
     @media screen and (max-width: 600px) {
       .topnav a:not(:first-child) {display: none;}
