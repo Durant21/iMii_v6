@@ -245,6 +245,8 @@ def store_img2_view(request):
         # absolute file *path* as the filename.  This example is naive; it
         # trusts user input.
 
+        w('store_img2_view()')
+
         filename = request.POST['img1'].filename
 
         # ``input_file`` contains the actual file data which needs to be
