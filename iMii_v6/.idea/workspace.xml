@@ -108,11 +108,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="iMiiMasterHeader1_layout.pt" pinned="false" current-in-tab="false">
+      <file leaf-file-name="iMiiMasterHeader1_layout.pt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/iMii_v6/templates/iMiiMasterHeader1_layout.pt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="44" column="29" lean-forward="false" selection-start-line="44" selection-start-column="29" selection-end-line="44" selection-end-column="29" />
+            <state relative-caret-position="73">
+              <caret line="129" column="19" lean-forward="true" selection-start-line="129" selection-start-column="19" selection-end-line="129" selection-end-column="19" />
               <folding>
                 <element signature="n#style#0;n#a#0;n#li#6;n#ul#0;n#div#1;n#div#0;n#nav#0;n#div#0;n#!!top" expanded="true" />
               </folding>
@@ -120,7 +120,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="About_layout.pt" pinned="false" current-in-tab="true">
+      <file leaf-file-name="About_layout.pt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/iMii_v6/templates/About_layout.pt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="179">
@@ -233,8 +233,8 @@
         <option value="$PROJECT_DIR$/production.ini" />
         <option value="$PROJECT_DIR$/iMii_v6/templates/OurProjects_layout.pt" />
         <option value="$PROJECT_DIR$/iMii_v6/templates/WomenInMining_layout.pt" />
-        <option value="$PROJECT_DIR$/iMii_v6/templates/iMiiMasterHeader1_layout.pt" />
         <option value="$PROJECT_DIR$/iMii_v6/templates/About_layout.pt" />
+        <option value="$PROJECT_DIR$/iMii_v6/templates/iMiiMasterHeader1_layout.pt" />
       </list>
     </option>
   </component>
@@ -1451,16 +1451,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/iMii_v6/templates/iMiiMasterHeader1_layout.pt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="44" column="29" lean-forward="false" selection-start-line="44" selection-start-column="29" selection-end-line="44" selection-end-column="29" />
-          <folding>
-            <element signature="n#style#0;n#a#0;n#li#6;n#ul#0;n#div#1;n#div#0;n#nav#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/iMii_v6/common/logfile.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -1478,6 +1468,16 @@
             <element signature="n#style#0;n#table#0;n#div#14;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#a#0;n#td#0;n#tr#0;n#table#0;n#div#14;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#a#0;n#td#2;n#tr#0;n#table#0;n#div#14;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iMii_v6/templates/iMiiMasterHeader1_layout.pt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="73">
+          <caret line="129" column="19" lean-forward="true" selection-start-line="129" selection-start-column="19" selection-end-line="129" selection-end-column="19" />
+          <folding>
+            <element signature="n#style#0;n#a#0;n#li#6;n#ul#0;n#div#1;n#div#0;n#nav#0;n#div#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
