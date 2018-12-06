@@ -22,7 +22,7 @@
           background-color: red;
       }
       .btn {
-            background-color: black;
+            background-color: dodgerblue;
             border: none;
             color: white;
             padding: 4px 5px;

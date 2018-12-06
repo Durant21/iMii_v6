@@ -10,7 +10,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/iMii_v6$iMii_v6.coverage" NAME="iMii_v6 Coverage Results" MODIFIED="1543803358093" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/iMii_v6$iMii_v6.coverage" NAME="iMii_v6 Coverage Results" MODIFIED="1544121901355" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -36,122 +36,12 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="home_page.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/iMii_v6/views/home_page.py">
+      <file leaf-file-name="iMii_v6_service.nginx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/iMii_v6/etc/nginx/sites-available/iMii_v6_service.nginx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="246" column="0" lean-forward="true" selection-start-line="246" selection-start-column="0" selection-end-line="246" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#36#0" expanded="true" />
-                <element signature="e#662#688#0" expanded="false" />
-                <element signature="e#803#836#0" expanded="false" />
-                <element signature="e#961#999#0" expanded="false" />
-                <element signature="e#1114#1147#0" expanded="false" />
-                <element signature="e#1265#1300#0" expanded="false" />
-                <element signature="e#1408#1438#0" expanded="false" />
-                <element signature="e#1538#1564#0" expanded="false" />
-                <element signature="e#1668#1696#0" expanded="false" />
-                <element signature="e#1806#1837#0" expanded="false" />
-                <element signature="e#1937#1963#0" expanded="false" />
-                <element signature="e#2069#2098#0" expanded="false" />
-                <element signature="e#2201#2228#0" expanded="false" />
-                <element signature="e#2230#2317#0" expanded="false" />
-                <element signature="e#3798#3846#0" expanded="false" />
-                <element signature="e#3967#4003#0" expanded="false" />
-                <element signature="e#4114#4145#0" expanded="false" />
-                <element signature="e#4272#4311#0" expanded="false" />
-                <element signature="e#4438#4477#0" expanded="false" />
-                <element signature="e#4708#4765#0" expanded="false" />
-                <element signature="e#4935#7574#0" expanded="false" />
-                <element signature="e#4967#5029#0" expanded="false" />
-                <element signature="e#5280#5344#0" expanded="false" />
-                <element signature="e#5471#5537#0" expanded="false" />
-                <element signature="e#5962#6003#0" expanded="false" />
-                <element signature="e#6418#6487#0" expanded="false" />
-                <element signature="e#7213#7259#0" expanded="false" />
-                <element signature="e#8381#8445#0" expanded="false" />
-                <element signature="e#8572#8638#0" expanded="false" />
-                <element signature="e#9065#9106#0" expanded="false" />
-                <element signature="e#9207#9267#0" expanded="false" />
-                <element signature="e#9519#9588#0" expanded="false" />
-                <element signature="e#10392#10492#0" expanded="false" />
-                <element signature="e#12521#12522#0" expanded="false" />
-                <element signature="e#13509#16570#0" expanded="false" />
-                <element signature="e#13659#13721#0" expanded="false" />
-                <element signature="e#13972#14036#0" expanded="false" />
-                <element signature="e#14164#14230#0" expanded="false" />
-                <element signature="e#14655#14696#0" expanded="false" />
-                <element signature="e#15339#15408#0" expanded="false" />
-                <element signature="e#16134#16180#0" expanded="false" />
-                <element signature="e#16860#19935#0" expanded="false" />
-                <element signature="e#17017#17079#0" expanded="false" />
-                <element signature="e#17330#17394#0" expanded="false" />
-                <element signature="e#17522#17588#0" expanded="false" />
-                <element signature="e#18013#18054#0" expanded="false" />
-                <element signature="e#18697#18766#0" expanded="false" />
-                <element signature="e#19492#19538#0" expanded="false" />
-                <element signature="e#20228#23302#0" expanded="false" />
-                <element signature="e#20385#20447#0" expanded="false" />
-                <element signature="e#20698#20762#0" expanded="false" />
-                <element signature="e#20890#20956#0" expanded="false" />
-                <element signature="e#21381#21422#0" expanded="false" />
-                <element signature="e#22065#22134#0" expanded="false" />
-                <element signature="e#22860#22906#0" expanded="false" />
-                <element signature="e#23595#26667#0" expanded="false" />
-                <element signature="e#23752#23814#0" expanded="false" />
-                <element signature="e#24065#24129#0" expanded="false" />
-                <element signature="e#24257#24323#0" expanded="false" />
-                <element signature="e#24748#24789#0" expanded="false" />
-                <element signature="e#25432#25501#0" expanded="false" />
-                <element signature="e#26227#26273#0" expanded="false" />
-                <element signature="e#26824#26888#0" expanded="false" />
-                <element signature="e#26940#29769#0" expanded="false" />
-                <element signature="e#27090#27152#0" expanded="false" />
-                <element signature="e#27403#27467#0" expanded="false" />
-                <element signature="e#27594#27660#0" expanded="false" />
-                <element signature="e#28085#28126#0" expanded="false" />
-                <element signature="e#28541#28610#0" expanded="false" />
-                <element signature="e#29336#29382#0" expanded="false" />
-                <marker date="1543882904000" expanded="false" signature="7437:7476" ph="UPDATE Peopl... " />
-                <marker date="1543882904000" expanded="false" signature="10275:10314" ph="UPDATE Event... " />
-                <marker date="1543882904000" expanded="false" signature="16358:16397" ph="UPDATE Peopl... " />
-                <marker date="1543882904000" expanded="true" signature="19716:19755" ph="UPDATE Peopl... " />
-                <marker date="1543882904000" expanded="true" signature="23084:23123" ph="UPDATE Event... " />
-                <marker date="1543882904000" expanded="true" signature="26451:26490" ph="UPDATE Event... " />
-                <marker date="1543882904000" expanded="false" signature="29560:29599" ph="UPDATE Peopl... " />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="logfile.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/iMii_v6/common/logfile.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="14" lean-forward="true" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="59" />
+            <state relative-caret-position="240">
+              <caret line="16" column="16" lean-forward="false" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="setup_steps.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/iMii_v6/etc/setup_steps.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="870">
-              <caret line="58" column="0" lean-forward="true" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="setup.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/setup.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#9#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -166,11 +56,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="iMii_v6_service.nginx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/iMii_v6/etc/nginx/sites-available/iMii_v6_service.nginx">
+      <file leaf-file-name="setup_steps.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/iMii_v6/etc/setup_steps.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="29" lean-forward="true" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
+            <state relative-caret-position="705">
+              <caret line="47" column="28" lean-forward="false" selection-start-line="47" selection-start-column="28" selection-end-line="47" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="production.ini" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/production.ini">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -179,8 +79,8 @@
       <file leaf-file-name="db_factory.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/iMii_v6/data/db_factory.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="65" lean-forward="true" selection-start-line="18" selection-start-column="65" selection-end-line="18" selection-end-column="65" />
+            <state relative-caret-position="300">
+              <caret line="20" column="50" lean-forward="false" selection-start-line="20" selection-start-column="50" selection-end-line="20" selection-end-column="50" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -188,34 +88,57 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="routes.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/iMii_v6/routes.py">
+      <file leaf-file-name="TeacherResources_layout.pt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/iMii_v6/templates/TeacherResources_layout.pt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="31" lean-forward="false" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
+            <state relative-caret-position="228">
+              <caret line="119" column="22" lean-forward="false" selection-start-line="119" selection-start-column="22" selection-end-line="119" selection-end-column="96" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/iMii_v6/__init__.py">
+      <file leaf-file-name="OurProjects_layout.pt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/iMii_v6/templates/OurProjects_layout.pt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="36" lean-forward="true" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
+            <state relative-caret-position="150">
+              <caret line="14" column="40" lean-forward="false" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="40" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WomenInMining_layout.pt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/iMii_v6/templates/WomenInMining_layout.pt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="23" column="12" lean-forward="false" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="iMiiMasterHeader1_layout.pt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/iMii_v6/templates/iMiiMasterHeader1_layout.pt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="44" column="29" lean-forward="false" selection-start-line="44" selection-start-column="29" selection-end-line="44" selection-end-column="29" />
               <folding>
-                <element signature="e#0#39#0" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#li#6;n#ul#0;n#div#1;n#div#0;n#nav#0;n#div#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="development.ini" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/development.ini">
+      <file leaf-file-name="About_layout.pt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/iMii_v6/templates/About_layout.pt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="32" lean-forward="true" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
-              <folding />
+            <state relative-caret-position="239">
+              <caret line="192" column="28" lean-forward="true" selection-start-line="192" selection-start-column="28" selection-end-line="192" selection-end-column="28" />
+              <folding>
+                <element signature="n#style#0;n#div#14;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#table#0;n#div#14;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -224,8 +147,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>//</find>
-      <find>//</find>
       <find>new</find>
       <find>populateTables</find>
       <find>doc_url1</find>
@@ -254,6 +175,8 @@
       <find>logto</find>
       <find>db_filename</find>
       <find>img_path</find>
+      <find>store_img2_view</find>
+      <find>proxy_buffer_size</find>
     </findStrings>
   </component>
   <component name="IdeDocumentHistory">
@@ -262,7 +185,6 @@
         <option value="$PROJECT_DIR$/iMii_v6/etc/init/iMii_v4_svc.service" />
         <option value="$PROJECT_DIR$/iMii_v6/etc/nginx/sites-available/iMii_v4_service.nginx" />
         <option value="$PROJECT_DIR$/iMii_v6/etc/setup_steps.txt" />
-        <option value="$PROJECT_DIR$/iMii_v6/etc/nginx/sites-available/iMii_v6_service.nginx" />
         <option value="$PROJECT_DIR$/iMii_v6/etc/init/iMii_v6_svc.service" />
         <option value="$PROJECT_DIR$/iMii_v6/templates/splash_layout.pt" />
         <option value="$PROJECT_DIR$/setup.py" />
@@ -278,7 +200,6 @@
         <option value="$PROJECT_DIR$/iMii_v6/data/User.py" />
         <option value="$PROJECT_DIR$/iMii_v6/data/db_factory.py" />
         <option value="$PROJECT_DIR$/development.ini" />
-        <option value="$PROJECT_DIR$/production.ini" />
         <option value="$PROJECT_DIR$/iMii_v6/static/scripts/common3.js" />
         <option value="$PROJECT_DIR$/iMii_v6/templates/iMii_layout.pt" />
         <option value="$PROJECT_DIR$/iMii_v6/api/iMii_api.py" />
@@ -303,13 +224,15 @@
         <option value="$PROJECT_DIR$/iMii_v6/routes.py" />
         <option value="$PROJECT_DIR$/iMii_v6/views/default.py" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/bbb479f5-0c5b-4d87-a620-19196a7caae9/console.sql" />
-        <option value="$PROJECT_DIR$/iMii_v6/templates/OurProjects_layout.pt" />
-        <option value="$PROJECT_DIR$/iMii_v6/templates/About_layout.pt" />
-        <option value="$PROJECT_DIR$/iMii_v6/templates/iMiiMasterHeader1_layout.pt" />
-        <option value="$PROJECT_DIR$/iMii_v6/templates/WomenInMining_layout.pt" />
         <option value="$PROJECT_DIR$/iMii_v6/common/logfile.py" />
         <option value="$PROJECT_DIR$/iMii_v6/logs/status.log" />
         <option value="$PROJECT_DIR$/iMii_v6/views/home_page.py" />
+        <option value="$PROJECT_DIR$/iMii_v6/etc/nginx/sites-available/iMii_v6_service.nginx" />
+        <option value="$PROJECT_DIR$/production.ini" />
+        <option value="$PROJECT_DIR$/iMii_v6/templates/OurProjects_layout.pt" />
+        <option value="$PROJECT_DIR$/iMii_v6/templates/WomenInMining_layout.pt" />
+        <option value="$PROJECT_DIR$/iMii_v6/templates/iMiiMasterHeader1_layout.pt" />
+        <option value="$PROJECT_DIR$/iMii_v6/templates/About_layout.pt" />
       </list>
     </option>
   </component>
@@ -320,8 +243,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
     <option name="width" value="1280" />
-    <option name="height" value="800" />
+    <option name="height" value="709" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -397,6 +321,42 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="iMii_v6" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="iMii_v6" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="iMii_v6" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="iMii_v6" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="iMii_v6" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="iMii_v6" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="services" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -416,6 +376,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="logs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="iMii_v6" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="iMii_v6" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="iMii_v6" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="infrastructure" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -503,24 +481,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="iMii_v6" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="iMii_v6" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="iMii_v6" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="api" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
@@ -529,12 +489,12 @@
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="FullScreen" value="true" />
     <property name="js.eslint.eslintPackage" value="" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="Sqlite (Xerial)" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/iMii_v6/static/graphics" />
       <recent name="$PROJECT_DIR$/iMii_v6" />
       <recent name="$PROJECT_DIR$/iMii_v6/views" />
       <recent name="$PROJECT_DIR$/iMii_v6/templates" />
@@ -836,17 +796,17 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
+    <frame x="0" y="23" width="1280" height="709" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.503231" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29726028" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32876712" sideWeight="0.49676898" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29659644" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4489465" sideWeight="0.49676898" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.49676898" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29159936" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23101777" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17285945" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -924,6 +884,16 @@
           <line>142</line>
           <option name="timeStamp" value="12" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/iMii_v6/views/home_page.py</url>
+          <line>233</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/iMii_v6/views/home_page.py</url>
+          <line>247</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
@@ -935,7 +905,7 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="13" />
+      <option name="time" value="16" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1205,20 +1175,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/iMii_v6/templates/TeacherResources_layout.pt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="125" column="29" lean-forward="false" selection-start-line="125" selection-start-column="29" selection-end-line="125" selection-end-column="29" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#1;n#div#2;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#2;n#div#2;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/iMii_v6/templates/Plan_layout.pt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -1272,61 +1228,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/iMii_v6/templates/OurProjects_layout.pt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="548" column="13" lean-forward="false" selection-start-line="548" selection-start-column="13" selection-end-line="548" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/iMii_v6/templates/About_layout.pt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="86">
-          <caret line="226" column="62" lean-forward="false" selection-start-line="226" selection-start-column="62" selection-end-line="226" selection-end-column="62" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#2;n#div#0;n#div#21;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#table#0;n#div#1;n#div#2;n#div#0;n#div#21;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/iMii_v6/templates/iMiiMasterHeader1_layout.pt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/iMii_v6/templates/WomenInMining_layout.pt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="382">
-          <caret line="947" column="22" lean-forward="true" selection-start-line="947" selection-start-column="22" selection-end-line="947" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/iMii_v6/templates/sqliteDB_layout.pt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="244">
           <caret line="390" column="0" lean-forward="true" selection-start-line="390" selection-start-column="0" selection-end-line="390" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/iMii_v6/etc/init/iMii_v6_svc.service">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/iMii_v6/etc/nginx/sites-available/iMii_v6_service.nginx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="29" lean-forward="true" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
           <folding />
         </state>
       </provider>
@@ -1344,16 +1249,8 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#9#0" expanded="true" />
+            <element signature="e#0#9#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/iMii_v6/etc/setup_steps.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="870">
-          <caret line="58" column="0" lean-forward="true" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1362,34 +1259,6 @@
         <state relative-caret-position="15">
           <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/iMii_v6/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="36" lean-forward="true" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/production.ini">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="615">
-          <caret line="41" column="3" lean-forward="true" selection-start-line="41" selection-start-column="3" selection-end-line="41" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/iMii_v6/data/db_factory.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="65" lean-forward="true" selection-start-line="18" selection-start-column="65" selection-end-line="18" selection-end-column="65" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1403,16 +1272,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/iMii_v6/common/logfile.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="14" lean-forward="true" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="59" />
+        <state relative-caret-position="105">
+          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iMii_v6/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-360">
+          <caret line="14" column="36" lean-forward="true" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/iMii_v6/views/home_page.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="246" column="0" lean-forward="true" selection-start-line="246" selection-start-column="0" selection-end-line="246" selection-end-column="0" />
+        <state relative-caret-position="306">
+          <caret line="249" column="48" lean-forward="false" selection-start-line="249" selection-start-column="48" selection-end-line="249" selection-end-column="48" />
           <folding>
             <element signature="e#0#36#0" expanded="true" />
             <element signature="e#662#688#0" expanded="false" />
@@ -1477,20 +1356,106 @@
             <element signature="e#25432#25501#0" expanded="false" />
             <element signature="e#26227#26273#0" expanded="false" />
             <element signature="e#26824#26888#0" expanded="false" />
-            <element signature="e#26940#29769#0" expanded="false" />
             <element signature="e#27090#27152#0" expanded="false" />
             <element signature="e#27403#27467#0" expanded="false" />
             <element signature="e#27594#27660#0" expanded="false" />
             <element signature="e#28085#28126#0" expanded="false" />
             <element signature="e#28541#28610#0" expanded="false" />
             <element signature="e#29336#29382#0" expanded="false" />
-            <marker date="1543882904000" expanded="false" signature="7437:7476" ph="UPDATE Peopl... " />
-            <marker date="1543882904000" expanded="false" signature="10275:10314" ph="UPDATE Event... " />
-            <marker date="1543882904000" expanded="false" signature="16358:16397" ph="UPDATE Peopl... " />
-            <marker date="1543882904000" expanded="true" signature="19716:19755" ph="UPDATE Peopl... " />
-            <marker date="1543882904000" expanded="true" signature="23084:23123" ph="UPDATE Event... " />
-            <marker date="1543882904000" expanded="true" signature="26451:26490" ph="UPDATE Event... " />
-            <marker date="1543882904000" expanded="false" signature="29560:29599" ph="UPDATE Peopl... " />
+            <marker date="1543950373000" expanded="false" signature="7437:7476" ph="UPDATE Peopl... " />
+            <marker date="1543950373000" expanded="false" signature="10275:10314" ph="UPDATE Event... " />
+            <marker date="1543950373000" expanded="false" signature="16358:16397" ph="UPDATE Peopl... " />
+            <marker date="1543950373000" expanded="true" signature="19716:19755" ph="UPDATE Peopl... " />
+            <marker date="1543950373000" expanded="true" signature="23084:23123" ph="UPDATE Event... " />
+            <marker date="1543950373000" expanded="true" signature="26451:26490" ph="UPDATE Event... " />
+            <marker date="1543950373000" expanded="false" signature="29560:29599" ph="UPDATE Peopl... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/production.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iMii_v6/data/db_factory.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="50" lean-forward="false" selection-start-line="20" selection-start-column="50" selection-end-line="20" selection-end-column="50" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iMii_v6/templates/TeacherResources_layout.pt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="119" column="22" lean-forward="false" selection-start-line="119" selection-start-column="22" selection-end-line="119" selection-end-column="96" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iMii_v6/templates/OurProjects_layout.pt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="14" column="40" lean-forward="false" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iMii_v6/templates/WomenInMining_layout.pt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="23" column="12" lean-forward="false" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iMii_v6/etc/setup_steps.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="705">
+          <caret line="47" column="28" lean-forward="false" selection-start-line="47" selection-start-column="28" selection-end-line="47" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iMii_v6/etc/init/iMii_v6_svc.service">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iMii_v6/etc/nginx/sites-available/iMii_v6_service.nginx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="16" lean-forward="false" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iMii_v6/templates/iMiiMasterHeader1_layout.pt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="44" column="29" lean-forward="false" selection-start-line="44" selection-start-column="29" selection-end-line="44" selection-end-column="29" />
+          <folding>
+            <element signature="n#style#0;n#a#0;n#li#6;n#ul#0;n#div#1;n#div#0;n#nav#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iMii_v6/templates/About_layout.pt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="192" column="28" lean-forward="true" selection-start-line="192" selection-start-column="28" selection-end-line="192" selection-end-column="28" />
+          <folding>
+            <element signature="n#style#0;n#div#14;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#table#0;n#div#14;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>

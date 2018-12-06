@@ -712,7 +712,7 @@ def store_img3_view(request):
 
     try:
 
-        w('store_img1_view()')
+        w('store_img3_view()')
 
         # ``filename`` contains the name of the file in string format.
         #
