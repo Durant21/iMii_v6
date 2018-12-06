@@ -186,18 +186,18 @@
       <div class="col-sm-12  text-left" style="padding-left: 75px; background-color:white;height: 40px;font-size: 25px; color: rgb(98,69,99);">
         <p>JOIN THE GITC MOVEMENT</p>
     </div>
-      <div class="col-sm-12" style="background-color:white;height: 650px;font-size: 25px; color: white;">
+      <div class="col-sm-12" style="background-color:white;height: 850px;font-size: 25px; color: white;">
           <table style="border:1; width:100%; background-color: white">
 
                       <tr>
                         <td>
-                            <a href="http://girlsintheclassroom.com/docs/Girls_In_The_Classroom_Recruitment_Letter.pdf" target=_blank><img src="/graphics/openletter.jpg" alt="" id="letter" style="width: 600px; height: 600px;"></a>
+                            <a href="http://girlsintheclassroom.com/docs/Girls_In_The_Classroom_Recruitment_Letter.pdf" target=_blank><img src="/graphics/openletter.jpg" alt="" id="letter" style="height: 800px;"></a>
                         </td>
                           <td>
 
                           </td>
                           <td>
-                              <a href="http://girlsintheclassroom.com/docs/About_the_Project_Handout.pdf" target=_blank><img src="/graphics/About_Us_One_Pager.jpg" alt="" id="letter" style="width: 600px; height: 600px;"></a>
+                              <a href="http://girlsintheclassroom.com/docs/About_the_Project_Handout.pdf" target=_blank><img src="/graphics/About_Us_One_Pager.jpg" alt="" id="letter" style="height: 800px;"></a>
                           </td>
                       </tr>
           </table>
