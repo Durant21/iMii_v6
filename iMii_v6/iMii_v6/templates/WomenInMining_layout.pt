@@ -21,6 +21,11 @@
       .yy {
           background-color: red;
       }
+
+      .uuu {
+           height: 140px;
+      }
+
       .btn {
             background-color: dodgerblue;
             border: none;
@@ -76,7 +81,7 @@
     float: left;
     width: 100%;
     padding-right: 10px;
-    border: 0px solid white;
+    border: 1px solid white;
     background-color: white;
 }
 
@@ -114,7 +119,7 @@
 
         .div2a {
         width: 90%;
-        background-color: white; display: inline-block
+        background-color: red; display: inline-block
         }
 
         .div2b {
@@ -986,7 +991,7 @@
             innerDiv1b.appendChild(text1b);
 
             var innerDiv1b_b = document.createElement("div")
-            innerDiv1b_b.className="panel-footer panelColor"
+            innerDiv1b_b.className="panel-footer panelColor uuu"
             //innerDiv1b.className="row1a text-center";//"row1a"
             var text1b_b = document.createElement("text")
             text1b_b.innerHTML=company;//headline;
