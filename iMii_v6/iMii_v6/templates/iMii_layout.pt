@@ -73,7 +73,9 @@
         <br>
       </div>
       <div class="col-sm-12 text-left" style="background-color:white;">
-        <img src="http://gis.podassoc.com/iMii_images/girlsintheclassroom.png" alt="image" style="width:100%">
+<!--?        <img src="http://gis.podassoc.com/iMii_images/girlsintheclassroom.png" alt="image" style="width:100%">-->
+          <img src="http://www.girlsintheclassroom.com/graphics/girlsintheclassroom.png" alt="image" style="width:100%">
+
     </div>
 
       <div class="col-sm-12" style="background-color:rgb(227,86,109);height: 30px;">
