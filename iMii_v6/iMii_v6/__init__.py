@@ -64,6 +64,7 @@ def main(global_config, **settings):
 
         config.add_route( 'people_api', '/api/people' )
         config.add_route( 'people_interviewed_api', '/api/people/{interviewed}' )
+        config.add_route('teachers_api', '/api/teachers/{interviewed}')
         config.add_route( 'person_api', '/api/person/{person_id}' )
 
         config.add_route( 'events_api', '/api/events' )

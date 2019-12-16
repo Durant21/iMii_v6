@@ -163,6 +163,22 @@ def interviewed_people(request: Request):
     return people
 
 
+@view_config(route_name='teachers_api',
+             request_method='GET',
+             renderer='json')
+def teachers(request: Request):
+    interviewed = request.matchdict.get('interviewed')
+    people = Repository_people.teachers(interviewed,limit=25)
+    #people = Repository_people.all_people( limit=25 )
+
+    # if not person:
+    #     msg = "The person with id '{}' was not found.".format(person_id)
+    #     return Response(status=404,json_body={'error:': msg})
+    #
+    # return person
+
+    return people
+
 @view_config(route_name='people_api',
              request_method='GET',
              accept='application/json',
