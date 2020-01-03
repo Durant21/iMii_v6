@@ -17,6 +17,21 @@
       <case-sensitivity plain-identifiers="mixed" quoted-identifiers="mixed" />
       <auth-required>false</auth-required>
       <schema-mapping />
+<<<<<<< HEAD
+=======
+    </data-source>
+    <data-source name="iMii_v3 [2]" uuid="4e29feb1-b0fb-4149-9e0c-e8593172e3cf">
+      <database-info product="SQLite" version="3.25.1" jdbc-version="2.1" driver-name="SQLite JDBC" driver-version="3.25.1" dbms="SQLITE" exact-version="3.25.1" exact-driver-version="3.25">
+        <identifier-quote-string>&quot;</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="mixed" quoted-identifiers="mixed" />
+      <auth-required>false</auth-required>
+      <schema-mapping>
+        <introspection-scope>
+          <node kind="schema" qname="@" />
+        </introspection-scope>
+      </schema-mapping>
+>>>>>>> db7d4d983d85a2bfc7767a75d4b038df35d83a92
     </data-source>
   </component>
 </project>

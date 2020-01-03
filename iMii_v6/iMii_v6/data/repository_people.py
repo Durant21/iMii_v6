@@ -72,6 +72,24 @@ class Repository_people:
 
 
     @classmethod
+    def teachers(cls, interviewed, limit=None):
+
+        session = DbSessionFactory.create_session()
+
+        # query = session.query( Person )  # .order_by(Teacher.lName)
+        # query = session.query(Person).filter(Person.fname == 'Sarah', Person.fname == 'Misty')
+        # query = session.query(Person).filter(Person.fname.in_(['Nancy', 'Marc']))
+        query = session.query(Person).filter(Person.interviewed == 'no')
+        if limit:
+            people = query[:limit]
+        else:
+            people = query.all()
+
+        session.close()
+
+        return people
+
+    @classmethod
     def __load_data(cls):
         if cls.__people_data:
             return

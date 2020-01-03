@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="57a9db7f-bb60-4a12-8055-f613ab9b088a" name="Default" comment="">
+<<<<<<< HEAD
       <change afterPath="$PROJECT_DIR$/.env/bin/easy_install-3.7" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.env/bin/pip3.7" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.env/lib/python3.7/site-packages/MarkupSafe-1.1.1.dist-info/INSTALLER" afterDir="false" />
@@ -3016,6 +3017,16 @@
       <change beforePath="$PROJECT_DIR$/development.ini" beforeDir="false" afterPath="$PROJECT_DIR$/development.ini" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+=======
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iMii_v6/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/iMii_v6/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iMii_v6/api/iMii_api.py" beforeDir="false" afterPath="$PROJECT_DIR$/iMii_v6/api/iMii_api.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iMii_v6/data/repository_people.py" beforeDir="false" afterPath="$PROJECT_DIR$/iMii_v6/data/repository_people.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iMii_v6/db/iMii_v3.sqlite" beforeDir="false" afterPath="$PROJECT_DIR$/iMii_v6/db/iMii_v3.sqlite" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iMii_v6/templates/TeacherResources_layout.pt" beforeDir="false" afterPath="$PROJECT_DIR$/iMii_v6/templates/TeacherResources_layout.pt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iMii_v6/templates/WomenInMining_layout.pt" beforeDir="false" afterPath="$PROJECT_DIR$/iMii_v6/templates/WomenInMining_layout.pt" afterDir="false" />
+    </list>
+>>>>>>> db7d4d983d85a2bfc7767a75d4b038df35d83a92
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -3028,12 +3039,14 @@
     <option name="PATCH_PATH" value="" />
   </component>
   <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
     <option name="GROUP_SCHEMA" value="true" />
     <option name="GROUP_CONTENTS" value="false" />
     <option name="SORT_POSITIONED" value="false" />
-    <option name="SHOW_TABLE_DETAILS" value="true" />
     <option name="SHOW_EMPTY_GROUPS" value="false" />
     <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+<<<<<<< HEAD
     <PATH>
       <PATH_ELEMENT>
         <option name="myItemId" />
@@ -3044,16 +3057,65 @@
         <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
       </PATH_ELEMENT>
     </PATH>
+=======
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="iMii_v3" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="iMii_v3 [2]" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="iMii_v3 [2]" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="iMii_v3 [2]" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="main: schema" type="981a47c2:SqliteImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="iMii_v3 [2]" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="main: schema" type="981a47c2:SqliteImplModel$Schema" />
+        <item name="People: table" type="3d80ac25:SqliteImplModel$Table" />
+      </path>
+    </expand>
+    <select />
+>>>>>>> db7d4d983d85a2bfc7767a75d4b038df35d83a92
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+<<<<<<< HEAD
   <component name="ProjectId" id="1TzPfVrzHLvQ5AWDOgyltCc4GsB" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+=======
+  <component name="ProjectId" id="1SQdpZbhvKlNYzah2iOC78ufecw" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+>>>>>>> db7d4d983d85a2bfc7767a75d4b038df35d83a92
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="Sqlite (Xerial)" />
     <property name="js.eslint.eslintPackage" value="" />
@@ -3076,19 +3138,19 @@
       <recent name="$PROJECT_DIR$/iMii_v6/views" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
   <component name="RunManager" selected="Pyramid server.iMii_v6">
+<<<<<<< HEAD
+=======
+    <configuration default="true" type="js.build_tools.gulp">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method v="2" />
+    </configuration>
+>>>>>>> db7d4d983d85a2bfc7767a75d4b038df35d83a92
     <configuration default="true" type="tests" factoryName="Attests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -3147,6 +3209,7 @@
       <option name="CONFIGURATION_FILE" value="$PROJECT_DIR$/development.ini" />
       <method v="2" />
     </configuration>
+<<<<<<< HEAD
     <configuration default="true" type="js.build_tools.gulp">
       <node-interpreter>project</node-interpreter>
       <node-options />
@@ -3156,6 +3219,8 @@
       <envs />
       <method v="2" />
     </configuration>
+=======
+>>>>>>> db7d4d983d85a2bfc7767a75d4b038df35d83a92
     <configuration name="Tests in setup.py" type="tests" factoryName="Unittests">
       <module name="iMii_v6" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -3189,6 +3254,7 @@
       <option name="_new_target" value="&quot;&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
+<<<<<<< HEAD
     </configuration>
     <configuration default="true" type="tests" factoryName="Unittests">
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -3205,11 +3271,54 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
+=======
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+>>>>>>> db7d4d983d85a2bfc7767a75d4b038df35d83a92
     <list>
       <item itemvalue="Pyramid server.iMii_v6" />
       <item itemvalue="Python tests.Tests in setup.py" />
     </list>
   </component>
+<<<<<<< HEAD
+=======
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:iMii_v3 [2]" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:iMii_v3 [2]" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="com.intellij.database.console.session.MessageBusSession@1c61ead5" type="9fbbdea:ServiceModel$ServiceNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+>>>>>>> db7d4d983d85a2bfc7767a75d4b038df35d83a92
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -3222,9 +3331,14 @@
       <updated>1543259386220</updated>
       <workItem from="1555646031646" duration="7684000" />
       <workItem from="1556052413829" duration="230000" />
+<<<<<<< HEAD
       <workItem from="1574460058351" duration="828000" />
       <workItem from="1575657423219" duration="661000" />
       <workItem from="1575658126746" duration="33000" />
+=======
+      <workItem from="1571499938330" duration="1704000" />
+      <workItem from="1576347386919" duration="14978000" />
+>>>>>>> db7d4d983d85a2bfc7767a75d4b038df35d83a92
     </task>
     <servers />
   </component>
@@ -3243,20 +3357,68 @@
         </entry>
       </map>
     </option>
+<<<<<<< HEAD
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+=======
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="315" y="104" width="804" height="667" key="#Plugins" timestamp="1576442174473">
+      <screen x="0" y="32" width="1440" height="819" />
+    </state>
+    <state x="315" y="104" width="804" height="667" key="#Plugins/0.32.1440.819@0.32.1440.819" timestamp="1576442174473" />
+    <state width="1394" height="254" key="GridCell.Tab.0.bottom" timestamp="1576514377156">
+      <screen x="0" y="32" width="1440" height="819" />
+    </state>
+    <state width="1394" height="254" key="GridCell.Tab.0.bottom/0.32.1440.819@0.32.1440.819" timestamp="1576514377156" />
+    <state width="1394" height="254" key="GridCell.Tab.0.center" timestamp="1576514377156">
+      <screen x="0" y="32" width="1440" height="819" />
+    </state>
+    <state width="1394" height="254" key="GridCell.Tab.0.center/0.32.1440.819@0.32.1440.819" timestamp="1576514377156" />
+    <state width="1394" height="254" key="GridCell.Tab.0.left" timestamp="1576514377156">
+      <screen x="0" y="32" width="1440" height="819" />
+    </state>
+    <state width="1394" height="254" key="GridCell.Tab.0.left/0.32.1440.819@0.32.1440.819" timestamp="1576514377156" />
+    <state width="1394" height="254" key="GridCell.Tab.0.right" timestamp="1576514377156">
+      <screen x="0" y="32" width="1440" height="819" />
+    </state>
+    <state width="1394" height="254" key="GridCell.Tab.0.right/0.32.1440.819@0.32.1440.819" timestamp="1576514377156" />
+    <state width="1394" height="254" key="GridCell.Tab.1.bottom" timestamp="1576514377157">
+      <screen x="0" y="32" width="1440" height="819" />
+    </state>
+    <state width="1394" height="254" key="GridCell.Tab.1.bottom/0.32.1440.819@0.32.1440.819" timestamp="1576514377157" />
+    <state width="1394" height="254" key="GridCell.Tab.1.center" timestamp="1576514377156">
+      <screen x="0" y="32" width="1440" height="819" />
+    </state>
+    <state width="1394" height="254" key="GridCell.Tab.1.center/0.32.1440.819@0.32.1440.819" timestamp="1576514377156" />
+    <state width="1394" height="254" key="GridCell.Tab.1.left" timestamp="1576514377156">
+      <screen x="0" y="32" width="1440" height="819" />
+    </state>
+    <state width="1394" height="254" key="GridCell.Tab.1.left/0.32.1440.819@0.32.1440.819" timestamp="1576514377156" />
+    <state width="1394" height="254" key="GridCell.Tab.1.right" timestamp="1576514377157">
+      <screen x="0" y="32" width="1440" height="819" />
+    </state>
+    <state width="1394" height="254" key="GridCell.Tab.1.right/0.32.1440.819@0.32.1440.819" timestamp="1576514377157" />
+    <state x="401" y="178" width="872" height="528" key="find.popup" timestamp="1576442676339">
+      <screen x="0" y="32" width="1440" height="819" />
+    </state>
+    <state x="401" y="178" width="872" height="528" key="find.popup/0.32.1440.819@0.32.1440.819" timestamp="1576442676339" />
+>>>>>>> db7d4d983d85a2bfc7767a75d4b038df35d83a92
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/iMii_v6/api/iMii_api.py</url>
-          <line>329</line>
+          <line>345</line>
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/iMii_v6/api/iMii_api.py</url>
-          <line>309</line>
+          <line>325</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
@@ -3275,13 +3437,8 @@
           <option name="timeStamp" value="9" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/iMii_v6/api/iMii_api.py</url>
-          <line>255</line>
-          <option name="timeStamp" value="11" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/iMii_v6/data/repository_people.py</url>
-          <line>142</line>
+          <line>160</line>
           <option name="timeStamp" value="12" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
@@ -3294,6 +3451,26 @@
           <line>247</line>
           <option name="timeStamp" value="15" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/iMii_v6/api/iMii_api.py</url>
+          <line>207</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/iMii_v6/api/iMii_api.py</url>
+          <line>216</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/iMii_v6/api/iMii_api.py</url>
+          <line>230</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/iMii_v6/data/repository_people.py</url>
+          <line>82</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
@@ -3305,6 +3482,10 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+<<<<<<< HEAD
     <SUITE FILE_PATH="coverage/iMii_v6$iMii_v6.coverage" NAME="iMii_v6 Coverage Results" MODIFIED="1575658140613" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+=======
+    <SUITE FILE_PATH="coverage/iMii_v6$iMii_v6.coverage" NAME="iMii_v6 Coverage Results" MODIFIED="1576514377146" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+>>>>>>> db7d4d983d85a2bfc7767a75d4b038df35d83a92
   </component>
 </project>

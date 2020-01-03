@@ -1,9 +1,14 @@
+<<<<<<< HEAD
 #!/Users/dantefernandez/Projects/iMii/iMii_v6_source/iMii_v6/iMii_v6/.env/bin/python3
+=======
+#!/home/dante/Projects/iMii/101919/iMii_v6/iMii_v6/.env/bin/python3
+
+>>>>>>> db7d4d983d85a2bfc7767a75d4b038df35d83a92
 # -*- coding: utf-8 -*-
 import re
 import sys
 
-from pip._internal import main
+from pip import main
 
 if __name__ == '__main__':
     sys.argv[0] = re.sub(r'(-script\.pyw?|\.exe)?$', '', sys.argv[0])
