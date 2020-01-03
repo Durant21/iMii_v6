@@ -1,5 +1,4 @@
-#!/Users/dantefernandez/Projects/iMii/iMii_v6/iMii_v6/.env/bin/python3.6
-
+#!/Users/dantefernandez/Projects/iMii/iMii_v6_source/iMii_v6/iMii_v6/.env/bin/python3
 # -*- coding: utf-8 -*-
 import re
 import sys

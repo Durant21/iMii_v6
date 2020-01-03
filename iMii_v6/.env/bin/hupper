@@ -1,4 +1,4 @@
-#!/Users/dantefernandez/Projects/iMii/iMii_v6/iMii_v6/.env/bin/python
+#!/Users/dantefernandez/Projects/iMii/iMii_v6_source/iMii_v6/iMii_v6/.env/bin/python
 # EASY-INSTALL-ENTRY-SCRIPT: 'hupper','console_scripts','hupper'
 __requires__ = 'hupper'
 import re
