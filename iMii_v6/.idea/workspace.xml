@@ -3,12 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="57a9db7f-bb60-4a12-8055-f613ab9b088a" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/iMii_v6/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/iMii_v6/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/iMii_v6/api/iMii_api.py" beforeDir="false" afterPath="$PROJECT_DIR$/iMii_v6/api/iMii_api.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/iMii_v6/data/repository_people.py" beforeDir="false" afterPath="$PROJECT_DIR$/iMii_v6/data/repository_people.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/iMii_v6/db/iMii_v3.sqlite" beforeDir="false" afterPath="$PROJECT_DIR$/iMii_v6/db/iMii_v3.sqlite" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/iMii_v6/templates/TeacherResources_layout.pt" beforeDir="false" afterPath="$PROJECT_DIR$/iMii_v6/templates/TeacherResources_layout.pt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/iMii_v6/templates/WomenInMining_layout.pt" beforeDir="false" afterPath="$PROJECT_DIR$/iMii_v6/templates/WomenInMining_layout.pt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -256,7 +250,7 @@
       <workItem from="1555646031646" duration="7684000" />
       <workItem from="1556052413829" duration="230000" />
       <workItem from="1571499938330" duration="1704000" />
-      <workItem from="1576347386919" duration="14978000" />
+      <workItem from="1576347386919" duration="16402000" />
     </task>
     <servers />
   </component>
@@ -284,22 +278,22 @@
       <screen x="0" y="32" width="1440" height="819" />
     </state>
     <state x="315" y="104" width="804" height="667" key="#Plugins/0.32.1440.819@0.32.1440.819" timestamp="1576442174473" />
-    <state width="1394" height="254" key="GridCell.Tab.0.bottom" timestamp="1576514377156">
+    <state width="1394" height="234" key="GridCell.Tab.0.bottom" timestamp="1578099385111">
       <screen x="0" y="32" width="1440" height="819" />
     </state>
-    <state width="1394" height="254" key="GridCell.Tab.0.bottom/0.32.1440.819@0.32.1440.819" timestamp="1576514377156" />
-    <state width="1394" height="254" key="GridCell.Tab.0.center" timestamp="1576514377156">
+    <state width="1394" height="234" key="GridCell.Tab.0.bottom/0.32.1440.819@0.32.1440.819" timestamp="1578099385111" />
+    <state width="1394" height="234" key="GridCell.Tab.0.center" timestamp="1578099385111">
       <screen x="0" y="32" width="1440" height="819" />
     </state>
-    <state width="1394" height="254" key="GridCell.Tab.0.center/0.32.1440.819@0.32.1440.819" timestamp="1576514377156" />
-    <state width="1394" height="254" key="GridCell.Tab.0.left" timestamp="1576514377156">
+    <state width="1394" height="234" key="GridCell.Tab.0.center/0.32.1440.819@0.32.1440.819" timestamp="1578099385111" />
+    <state width="1394" height="234" key="GridCell.Tab.0.left" timestamp="1578099385111">
       <screen x="0" y="32" width="1440" height="819" />
     </state>
-    <state width="1394" height="254" key="GridCell.Tab.0.left/0.32.1440.819@0.32.1440.819" timestamp="1576514377156" />
-    <state width="1394" height="254" key="GridCell.Tab.0.right" timestamp="1576514377156">
+    <state width="1394" height="234" key="GridCell.Tab.0.left/0.32.1440.819@0.32.1440.819" timestamp="1578099385111" />
+    <state width="1394" height="234" key="GridCell.Tab.0.right" timestamp="1578099385111">
       <screen x="0" y="32" width="1440" height="819" />
     </state>
-    <state width="1394" height="254" key="GridCell.Tab.0.right/0.32.1440.819@0.32.1440.819" timestamp="1576514377156" />
+    <state width="1394" height="234" key="GridCell.Tab.0.right/0.32.1440.819@0.32.1440.819" timestamp="1578099385111" />
     <state width="1394" height="254" key="GridCell.Tab.1.bottom" timestamp="1576514377157">
       <screen x="0" y="32" width="1440" height="819" />
     </state>
@@ -394,6 +388,6 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/iMii_v6$iMii_v6.coverage" NAME="iMii_v6 Coverage Results" MODIFIED="1576514377146" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/iMii_v6$iMii_v6.coverage" NAME="iMii_v6 Coverage Results" MODIFIED="1578099369046" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
