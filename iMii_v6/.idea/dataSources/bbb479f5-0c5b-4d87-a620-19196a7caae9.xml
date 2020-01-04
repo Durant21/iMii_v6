@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dataSource name="iMii_v3">
+<<<<<<< HEAD
+  <database-model serializer="dbm" dbms="SQLITE" family-id="SQLITE" format-version="4.16">
+=======
   <database-model serializer="dbm" dbms="SQLITE" family-id="SQLITE" format-version="4.17">
+>>>>>>> db7d4d983d85a2bfc7767a75d4b038df35d83a92
     <root id="1"/>
     <schema id="2" parent="1">
       <Current>1</Current>
