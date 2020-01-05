@@ -68,3 +68,11 @@ sDBPath: /Users/dantefernandez/Projects/iMii/iMii_v6/iMii_v6/iMii_v6/db
 store_people_doc2_view()
 store_people_doc2_view()
 sRelativePath: /Users/dantefernandez/Projects/iMii/iMii_v6_source/iMii_v6/iMii_v6/iMii_v6/static
+store_img3_view()
+sRelativePath: /home/dante/Projects/iMii/v6/iMii_v6/iMii_v6/iMii_v6/static
+sBaseFileName: a8aa28db-03a6-451d-a5fd-5addbc28e661.jpg
+sDBPath: /Users/dantefernandez/Projects/iMii/iMii_v6_source/iMii_v6/iMii_v6/iMii_v6/db
+store_img3_view()
+sRelativePath: /home/dante/Projects/iMii/v6/iMii_v6/iMii_v6/iMii_v6/static
+sBaseFileName: 6181c394-37b0-444a-ab36-39510c89cf4b.jpg
+sDBPath: /home/dante/Projects/iMii/v6/iMii_v6/iMii_v6/iMii_v6/db
