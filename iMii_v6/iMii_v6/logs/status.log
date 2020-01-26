@@ -136,3 +136,39 @@ store_img3_view()
 sRelativePath: /home/dante/Projects/iMii/v6/iMii_v6/iMii_v6/iMii_v6/static
 sBaseFileName: d0845a4d-70d9-458e-ac07-cbeda34c94eb.jpg
 sDBPath: /home/dante/Projects/iMii/v6/iMii_v6/iMii_v6/iMii_v6/db
+store_img3_view()
+sRelativePath: /home/dante/Projects/iMii/v6/iMii_v6/iMii_v6/iMii_v6/static
+sBaseFileName: 08841143-9d18-4e8c-bc3f-a302e5d301d8.jpg
+sDBPath: /home/dante/Projects/iMii/v6/iMii_v6/iMii_v6/iMii_v6/db
+store_doc1_view()
+sRelativePath: /home/dante/Projects/iMii/v6/iMii_v6/iMii_v6/iMii_v6/static
+sBaseFileName: GITC_Team_Member_McBeth.2bc288c1-067c-42c1-8fb9-16ec78aef668.pdf
+sDBPath: /home/dante/Projects/iMii/v6/iMii_v6/iMii_v6/iMii_v6/db
+store_img3_view()
+sRelativePath: /home/dante/Projects/iMii/v6/iMii_v6/iMii_v6/iMii_v6/static
+sBaseFileName: e2f7ae25-6db0-4d35-95bb-183e16f5160e.jpg
+sDBPath: /home/dante/Projects/iMii/v6/iMii_v6/iMii_v6/iMii_v6/db
+store_img3_view()
+sRelativePath: /home/dante/Projects/iMii/v6/iMii_v6/iMii_v6/iMii_v6/static
+sBaseFileName: 90d5ef3e-555d-485b-bff9-a4e25f57a4ce.jpg
+sDBPath: /home/dante/Projects/iMii/v6/iMii_v6/iMii_v6/iMii_v6/db
+store_doc1_view()
+sRelativePath: /home/dante/Projects/iMii/v6/iMii_v6/iMii_v6/iMii_v6/static
+sBaseFileName: GITC_Trades_and_Tech_Profile_Danielle_Faris.d974c1bb-4405-48b4-be62-e138969de76b.pdf
+sDBPath: /home/dante/Projects/iMii/v6/iMii_v6/iMii_v6/iMii_v6/db
+store_doc1_view()
+sRelativePath: /home/dante/Projects/iMii/v6/iMii_v6/iMii_v6/iMii_v6/static
+sBaseFileName: GITC_Trades_and_Tech Profile_Allison_Zerr.b8b044af-fa3d-4bd8-b68b-5bf8b9c16cc1.pdf
+sDBPath: /home/dante/Projects/iMii/v6/iMii_v6/iMii_v6/iMii_v6/db
+store_img3_view()
+sRelativePath: /home/dante/Projects/iMii/v6/iMii_v6/iMii_v6/iMii_v6/static
+sBaseFileName: 739c8ce0-9bda-4920-8948-5919d919fda7.jpg
+sDBPath: /home/dante/Projects/iMii/v6/iMii_v6/iMii_v6/iMii_v6/db
+store_people_doc2_view()
+sRelativePath: /home/dante/Projects/iMii/v6/iMii_v6/iMii_v6/iMii_v6/static
+sBaseFileName: GITC_Trades_and_Tech_Profile_Allison_Zerr_2.26c0dea1-0dec-4756-9ac1-4d9bc5367a51.pdf
+sDBPath: /home/dante/Projects/iMii/v6/iMii_v6/iMii_v6/iMii_v6/db
+store_people_doc2_view()
+sRelativePath: /home/dante/Projects/iMii/v6/iMii_v6/iMii_v6/iMii_v6/static
+sBaseFileName: GITC_Trades_and_Tech_Profile_Danielle_Faris_1.ccae01c2-3bf0-49d3-8aad-170e916adbff.pdf
+sDBPath: /home/dante/Projects/iMii/v6/iMii_v6/iMii_v6/iMii_v6/db
