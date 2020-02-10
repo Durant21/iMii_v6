@@ -79,7 +79,7 @@ class Repository_people:
         # query = session.query( Person )  # .order_by(Teacher.lName)
         # query = session.query(Person).filter(Person.fname == 'Sarah', Person.fname == 'Misty')
         # query = session.query(Person).filter(Person.fname.in_(['Nancy', 'Marc']))
-        query = session.query(Person).filter(Person.interviewed == 'no')
+        query = session.query(Person).filter(Person.interviewed == 'no').order_by(Person.fname.desc())
         if limit:
             people = query[:limit]
         else:

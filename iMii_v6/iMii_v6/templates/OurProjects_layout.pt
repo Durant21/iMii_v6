@@ -1039,6 +1039,13 @@
             if (doc_url2) {
                 innerDiv1a.appendChild(innerDiv1h)  // DOCUMENT 2 - HOTLINK
             }
+var i;
+// for (i = 0; i < cars.length; i++) {
+//                 var innerDiv_extra1 = document.createElement("div")
+//                 innerDiv_extra1.appendChild(innerDiv_extra1)
+//                 var innerDiv1br = document.createElement("br")
+//     innerDiv1a.appendChild(innerDiv1br)
+// }
 
         }
     </script>
